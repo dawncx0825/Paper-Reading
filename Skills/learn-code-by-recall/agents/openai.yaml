@@ -1,0 +1,4 @@
+interface:
+  display_name: "闭卷复现式代码学习"
+  short_description: "通过分段提问、概念讲解、提示纠错和闭卷复现来掌握代码"
+  default_prompt: "使用 $learn-code-by-recall 帮我逐步理解并独立写出这段代码，不要一开始给完整答案。"

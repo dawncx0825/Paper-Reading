@@ -1,6 +1,6 @@
 # Paper Reading
 
-论文阅读资料与可复用的 AI 精读技能。`Skills/` 提供通用阅读流程，`Papers/` 按论文保存原文、总结、问答和相关材料。
+论文阅读资料与可复用的 AI 学习技能。`Skills/` 提供论文精读与闭卷复现式代码学习流程，`Papers/` 按论文保存原文、总结、问答和相关材料。
 
 阅读记录保留结论，也保留形成理解的过程：问题从哪里来、哪些解释有帮助、哪些理解经过了纠正。重读时，可以结合原文和问答上下文回顾这些思路。
 
@@ -14,7 +14,13 @@ paper-reading/
 │   │   ├── SKILL.md                    # 通用论文精读流程
 │   │   └── references/
 │   │       └── glossary.md             # 初始术语表与维护规则
-│   └── paper-reading.skill             # 与上方源文件同步的 ZIP 安装包
+│   ├── paper-reading.skill             # 论文精读 ZIP 安装包
+│   ├── learn-code-by-recall/
+│   │   ├── SKILL.md                    # 闭卷复现式代码学习流程
+│   │   ├── agents/openai.yaml          # Codex 展示信息与默认提示词
+│   │   ├── README.md                   # 原仓库说明
+│   │   └── LICENSE                     # 原仓库 MIT 许可证
+│   └── learn-code-by-recall.skill       # 代码学习 ZIP 安装包
 └── Papers/
     └── instructGPT/
         ├── 2203.02155v1.pdf             # 论文原文
@@ -22,6 +28,13 @@ paper-reading/
         ├── InstructGPT_论文问答记录.md   # 问题、回答与上下文
         └── 论文阅读项目_输出规范.md      # 当时阅读过程中的约定
 ```
+
+## 技能索引
+
+| 技能 | 用途 | 安装包 |
+| --- | --- | --- |
+| [paper-reading](Skills/paper-reading/SKILL.md) | 论文总结、术语对照、概念与图表精读 | [下载](Skills/paper-reading.skill) |
+| [learn-code-by-recall](Skills/learn-code-by-recall/SKILL.md) | 分段回忆代码、渐进提示、纠错与闭卷复现 | [下载](Skills/learn-code-by-recall.skill) |
 
 ## 使用论文精读 Skill
 
@@ -59,6 +72,18 @@ fi
 
 需要保存笔记时指定项目位置即可。默认归档建议为 `Papers/<论文简称>/`；跨论文积累的术语可另存为 `Papers/glossary.md`，无需改动已安装的技能。启用技能本身不会自动提交或上传文件。
 
+## 使用代码学习 Skill
+
+[learn-code-by-recall](Skills/learn-code-by-recall/SKILL.md) 帮助学习者独立理解并复现代码：先按语义和依赖拆分代码，再逐段尝试、接受最小必要提示并修正错误，最后通过闭卷重写、解释和迁移练习检验掌握程度。适用于论文实现、算法、Notebook 和日常编程学习。
+
+将整个 [Skills/learn-code-by-recall/](Skills/learn-code-by-recall/) 文件夹复制到所用工具的技能目录；Codex 的目录规则与上文相同，目标子目录名使用 `learn-code-by-recall`。支持 `.skill` 导入的平台也可以使用 [安装包](Skills/learn-code-by-recall.skill)。
+
+提供目标代码或文件，并使用以下提示词开始：
+
+> 使用 $learn-code-by-recall 帮助逐步理解并独立写出这段代码，不要一开始给完整答案。
+
+本技能来自 [dawncx0825/learn-code-by-recall](https://github.com/dawncx0825/learn-code-by-recall)，本次收录版本为 [bbeb40e](https://github.com/dawncx0825/learn-code-by-recall/commit/bbeb40e1107c65865696243bc4e9d9449f2bfc24)。保留原始技能、Codex 元数据、说明和 [MIT 许可证](Skills/learn-code-by-recall/LICENSE)。这里保存的是独立副本，原仓库更新后需手动同步。
+
 ## 已读论文
 
 | 论文 | 主题 | 阅读资料 |
@@ -71,15 +96,18 @@ fi
 
 在 `Papers/` 下按论文简称新建文件夹，按需放入原文、总结、问答和图像，并在上方表格增加索引。文件命名应能清楚区分原文、总结和后续补充。以后新增论文统一放在此目录。
 
-修改技能时，以 `Skills/paper-reading/` 内的源文件为准，并同步重新生成 `.skill` 安装包。在仓库根目录可执行：
+## 维护技能安装包
+
+修改技能时，以 `Skills/<技能名>/` 内的源文件为准，并同步重新生成对应的 `.skill` 安装包。在仓库根目录可执行以下命令；将 `skill_name` 改为需要打包的技能名：
 
 ```bash
 python3 - <<'PY'
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile
 
-source = Path("Skills/paper-reading")
-with ZipFile("Skills/paper-reading.skill", "w", ZIP_DEFLATED) as archive:
+skill_name = "paper-reading"  # 或 "learn-code-by-recall"
+source = Path("Skills") / skill_name
+with ZipFile(source.with_suffix(".skill"), "w", ZIP_DEFLATED) as archive:
     for path in sorted(source.rglob("*")):
         if path.is_file() and not any(part.startswith(".") for part in path.relative_to(source).parts):
             archive.write(path, path.relative_to(source.parent).as_posix())
