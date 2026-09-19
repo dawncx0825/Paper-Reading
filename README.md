@@ -1,6 +1,6 @@
 # Paper Reading
 
-论文阅读资料与可复用的 AI 学习技能。`Skills/` 提供论文精读与闭卷复现式代码学习流程，`Papers/` 按论文保存原文、总结、问答和相关材料。
+论文阅读资料与可复用的 AI 学习技能。`Skills/` 提供论文精读与闭卷复现式代码学习流程，`Papers/` 按论文保存原文、总结、问答和论文图片。
 
 阅读记录保留结论，也保留形成理解的过程：问题从哪里来、哪些解释有帮助、哪些理解经过了纠正。重读时，可以结合原文和问答上下文回顾这些思路。
 
@@ -25,11 +25,17 @@ paper-reading/
     ├── instructGPT/
     │   ├── 2203.02155v1.pdf             # 论文原文
     │   ├── InstructGPT_论文总结.pdf      # 阅读总结
-    │   └── InstructGPT_论文问答记录.md   # 问题、回答与上下文
-    └── ViT/
-        ├── 2010.11929v2.pdf             # 论文原文
-        ├── ViT论文总结.md               # 阅读总结
-        └── ViT论文问答记录.md           # 问题、回答与上下文
+    │   ├── InstructGPT_论文问答记录.md   # 问题、回答与上下文
+    │   └── figures/                    # 论文图片
+    ├── ViT/
+    │   ├── 2010.11929v2.pdf             # 论文原文
+    │   ├── ViT论文总结.md               # 阅读总结
+    │   ├── ViT论文问答记录.md           # 问题、回答与上下文
+    │   └── figures/                    # 论文图片
+    └── V*/
+        ├── 2312.14135v2.pdf             # 论文原文
+        ├── Vstar论文总结.md             # 阅读总结
+        └── figures/                    # 论文图片
 ```
 
 ## 技能索引
@@ -91,14 +97,15 @@ fi
 
 | 论文 | 主题 | 阅读资料 |
 | --- | --- | --- |
-| **InstructGPT** — Training Language Models to Follow Instructions with Human Feedback | 指令遵循、人类反馈、RLHF | [原文](Papers/instructGPT/2203.02155v1.pdf) · [总结](Papers/instructGPT/InstructGPT_论文总结.pdf) · [问答与上下文](Papers/instructGPT/InstructGPT_论文问答记录.md) |
-| **ViT** — An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | 视觉 Transformer、图像分类、大规模预训练 | [原文](Papers/ViT/2010.11929v2.pdf) · [总结](Papers/ViT/ViT论文总结.md) · [问答与上下文](Papers/ViT/ViT论文问答记录.md) |
+| **InstructGPT** — Training Language Models to Follow Instructions with Human Feedback | 指令遵循、人类反馈、RLHF | [原文](Papers/instructGPT/2203.02155v1.pdf) · [总结](Papers/instructGPT/InstructGPT_论文总结.pdf) · [问答与上下文](Papers/instructGPT/InstructGPT_论文问答记录.md) · [图片](Papers/instructGPT/figures/) |
+| **ViT** — An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | 视觉 Transformer、图像分类、大规模预训练 | [原文](Papers/ViT/2010.11929v2.pdf) · [总结](Papers/ViT/ViT论文总结.md) · [问答与上下文](Papers/ViT/ViT论文问答记录.md) · [图片](Papers/ViT/figures/) |
+| **V\*** — Guided Visual Search as a Core Mechanism in Multimodal LLMs | 多模态大语言模型、引导式视觉搜索、细粒度视觉定位 | [原文](Papers/V%2A/2312.14135v2.pdf) · [总结](Papers/V%2A/Vstar论文总结.md) · [图片](Papers/V%2A/figures/) |
 
-需要回顾整体内容时先看总结；需要理解段落、公式或实验时，结合原文查阅问答记录。可安装、可复用的通用流程以 `Skills/` 中的版本为准。
+需要回顾整体内容时先看总结；需要理解段落、公式或实验时，结合原文查阅问答记录。各论文的 `figures/` 文件夹保存论文图片，可配合总结中的图号查阅。可安装、可复用的通用流程以 `Skills/` 中的版本为准。
 
 ## 添加新论文
 
-在 `Papers/` 下按论文简称新建文件夹，按需放入原文、总结、问答和图像，并在上方表格增加索引。文件命名应能清楚区分原文、总结和后续补充。以后新增论文统一放在此目录。
+在 `Papers/` 下按论文简称新建文件夹，按需放入原文、总结和问答，论文图片统一放在该论文的 `figures/` 子目录，并在上方表格增加资料与图片索引。文件命名应能清楚区分原文、总结和后续补充。以后新增论文统一放在此目录。
 
 ## 维护技能安装包
 
