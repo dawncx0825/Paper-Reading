@@ -22,11 +22,14 @@ paper-reading/
 │   │   └── LICENSE                     # 原仓库 MIT 许可证
 │   └── learn-code-by-recall.skill       # 代码学习 ZIP 安装包
 └── Papers/
-    └── instructGPT/
-        ├── 2203.02155v1.pdf             # 论文原文
-        ├── InstructGPT_论文总结.pdf      # 阅读总结
-        ├── InstructGPT_论文问答记录.md   # 问题、回答与上下文
-        └── 论文阅读项目_输出规范.md      # 当时阅读过程中的约定
+    ├── instructGPT/
+    │   ├── 2203.02155v1.pdf             # 论文原文
+    │   ├── InstructGPT_论文总结.pdf      # 阅读总结
+    │   └── InstructGPT_论文问答记录.md   # 问题、回答与上下文
+    └── ViT/
+        ├── 2010.11929v2.pdf             # 论文原文
+        ├── ViT论文总结.md               # 阅读总结
+        └── ViT论文问答记录.md           # 问题、回答与上下文
 ```
 
 ## 技能索引
@@ -89,8 +92,9 @@ fi
 | 论文 | 主题 | 阅读资料 |
 | --- | --- | --- |
 | **InstructGPT** — Training Language Models to Follow Instructions with Human Feedback | 指令遵循、人类反馈、RLHF | [原文](Papers/instructGPT/2203.02155v1.pdf) · [总结](Papers/instructGPT/InstructGPT_论文总结.pdf) · [问答与上下文](Papers/instructGPT/InstructGPT_论文问答记录.md) |
+| **ViT** — An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | 视觉 Transformer、图像分类、大规模预训练 | [原文](Papers/ViT/2010.11929v2.pdf) · [总结](Papers/ViT/ViT论文总结.md) · [问答与上下文](Papers/ViT/ViT论文问答记录.md) |
 
-需要回顾整体内容时先看总结；需要理解段落、公式或实验时，结合原文查阅问答记录。论文目录中的旧输出规范保留当时的阅读背景；可安装、可复用的通用流程以 `Skills/` 中的版本为准。
+需要回顾整体内容时先看总结；需要理解段落、公式或实验时，结合原文查阅问答记录。可安装、可复用的通用流程以 `Skills/` 中的版本为准。
 
 ## 添加新论文
 
