@@ -32,10 +32,22 @@ paper-reading/
     │   ├── ViT论文总结.md               # 阅读总结
     │   ├── ViT论文问答记录.md           # 问题、回答与上下文
     │   └── figures/                    # 论文图片
-    └── V*/
-        ├── 2312.14135v2.pdf             # 论文原文
-        ├── Vstar论文总结.md             # 阅读总结
-        └── figures/                    # 论文图片
+    ├── V*/
+    │   ├── 2312.14135v2.pdf             # 论文原文
+    │   ├── Vstar论文总结.md             # 阅读总结
+    │   └── figures/                    # 论文图片
+    └── PPO/
+        ├── 2009.01325v3.pdf             # Learning to Summarize from Human Feedback
+        ├── 论文总结.md                  # 阅读总结
+        ├── figures/                    # 论文图片
+        └── reproduce/                  # 单卡 RLHF 复现
+            ├── README.md               # 环境配置与运行说明
+            ├── configs/                # 实验配置
+            ├── ppo_repro/              # 数据与模型实现
+            ├── scripts/                # 训练、生成与评测脚本
+            ├── tests/                  # 复现代码测试
+            ├── 最终复现报告.md           # 实验结果与局限性
+            └── report-app/             # 交互式报告源码与构建产物
 ```
 
 ## 技能索引
@@ -100,8 +112,11 @@ fi
 | **InstructGPT** — Training Language Models to Follow Instructions with Human Feedback | 指令遵循、人类反馈、RLHF | [原文](Papers/instructGPT/2203.02155v1.pdf) · [总结](Papers/instructGPT/InstructGPT_论文总结.pdf) · [问答与上下文](Papers/instructGPT/InstructGPT_论文问答记录.md) · [图片](Papers/instructGPT/figures/) |
 | **ViT** — An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | 视觉 Transformer、图像分类、大规模预训练 | [原文](Papers/ViT/2010.11929v2.pdf) · [总结](Papers/ViT/ViT论文总结.md) · [问答与上下文](Papers/ViT/ViT论文问答记录.md) · [图片](Papers/ViT/figures/) |
 | **V\*** — Guided Visual Search as a Core Mechanism in Multimodal LLMs | 多模态大语言模型、引导式视觉搜索、细粒度视觉定位 | [原文](Papers/V%2A/2312.14135v2.pdf) · [总结](Papers/V%2A/Vstar论文总结.md) · [图片](Papers/V%2A/figures/) |
+| **PPO / RLHF 摘要** — Learning to Summarize from Human Feedback | 人类偏好、奖励模型、PPO、文本摘要 | [原文](Papers/PPO/2009.01325v3.pdf) · [总结](Papers/PPO/论文总结.md) · [图片](Papers/PPO/figures/) · [复现代码](Papers/PPO/reproduce/README.md) · [复现报告](Papers/PPO/reproduce/最终复现报告.md) |
 
 需要回顾整体内容时先看总结；需要理解段落、公式或实验时，结合原文查阅问答记录。各论文的 `figures/` 文件夹保存论文图片，可配合总结中的图号查阅。可安装、可复用的通用流程以 `Skills/` 中的版本为准。
+
+`Papers/PPO/` 收录的是使用 PPO 进行 RLHF 摘要训练的论文 *Learning to Summarize from Human Feedback*。其 `reproduce/` 目录提供基于 Qwen2.5-0.5B、面向单张 RTX 3090 的 SFT → 奖励模型 → PPO 复现流程，以及评测脚本、最终报告和交互式报告。复现侧重方法验证，实验结果与局限性详见复现报告；训练数据、模型、检查点和运行日志按该目录的 `.gitignore` 排除。
 
 ## 添加新论文
 

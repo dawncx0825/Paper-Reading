@@ -1,0 +1,308 @@
+{
+  "id": "ppo-reproduction-final-report",
+  "title": "PPO improves judged summary preference, with important length-bias caveats",
+  "surface": "report",
+  "status": "verified",
+  "buildStatus": "creating",
+  "generatedAt": "2026-09-21T00:00:00+08:00",
+  "filters": [],
+  "report": {
+    "asOf": "2026-09-21",
+    "originalQuestion": "What were the final results of the RTX 3090 reproduction of Learning to Summarize from Human Feedback?"
+  },
+  "queries": {
+    "training_stages": {
+      "label": "Measured training-stage performance",
+      "rows": [
+        {
+          "stage": "SFT",
+          "trainingScale": "20,000 examples / 1,250 optimizer steps",
+          "wallSeconds": 2662.5743,
+          "wallLabel": "44m 23s",
+          "peakAllocatedGiB": 4.72,
+          "peakReservedGiB": 7.20,
+          "primaryMetric": "Dev loss",
+          "primaryValue": 2.2893
+        },
+        {
+          "stage": "RM",
+          "trainingScale": "10,000 pairs / 625 optimizer steps",
+          "wallSeconds": 1590.4878,
+          "wallLabel": "26m 30s",
+          "peakAllocatedGiB": 4.70,
+          "peakReservedGiB": 4.93,
+          "primaryMetric": "Independent test accuracy",
+          "primaryValue": 0.645
+        },
+        {
+          "stage": "PPO",
+          "trainingScale": "10,240 episodes / 320 rollout batches",
+          "wallSeconds": 25935.3804,
+          "wallLabel": "7h 12m 15s",
+          "peakAllocatedGiB": 10.30,
+          "peakReservedGiB": 10.61,
+          "primaryMetric": "Final-10 mean RM score",
+          "primaryValue": 0.4490
+        }
+      ],
+      "source": {
+        "label": "Measured full-run training logs",
+        "files": [
+          "logs/full/sft.log",
+          "logs/full/rm.log",
+          "logs/full/ppo.log"
+        ],
+        "filters": [
+          "Formal full profile, random seed 42, single NVIDIA GeForce RTX 3090 24GB"
+        ],
+        "metricDefinitions": [
+          {
+            "field": "wallSeconds",
+            "label": "Wall time",
+            "definition": "Elapsed stage runtime recorded by the training script, including final evaluation and artifact saving performed inside that stage.",
+            "componentIds": ["training-table"]
+          },
+          {
+            "field": "peakAllocatedGiB",
+            "label": "Peak allocated GPU memory",
+            "definition": "Maximum CUDA bytes actively allocated by PyTorch during the stage, divided by 2^30.",
+            "componentIds": ["training-table"]
+          },
+          {
+            "field": "peakReservedGiB",
+            "label": "Peak reserved GPU memory",
+            "definition": "Maximum CUDA bytes reserved by the PyTorch allocator during the stage, divided by 2^30.",
+            "componentIds": ["training-table"]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Source",
+            "detail": "Stage summaries are the final JSON objects emitted by the SFT, RM, and PPO scripts in logs/full."
+          }
+        ]
+      }
+    },
+    "rm_evaluation": {
+      "label": "Independent reward-model evaluation",
+      "rows": [
+        {
+          "split": "Development",
+          "pairs": 1000,
+          "posts": 49,
+          "accuracy": 0.609,
+          "ciLow": 0.5341,
+          "ciHigh": 0.6826,
+          "meanMargin": 0.1159,
+          "rewardLengthCorrelation": 0.5213
+        },
+        {
+          "split": "Test",
+          "pairs": 1000,
+          "posts": 85,
+          "accuracy": 0.645,
+          "ciLow": 0.6014,
+          "ciHigh": 0.6811,
+          "meanMargin": 0.2625,
+          "rewardLengthCorrelation": 0.5972
+        }
+      ],
+      "source": {
+        "label": "Independent RM evaluation output",
+        "files": ["results/full/rm_evaluation.json"],
+        "metricDefinitions": [
+          {
+            "field": "accuracy",
+            "label": "Preference accuracy",
+            "definition": "Share of human-labeled comparison pairs for which the reward model scores the chosen summary above the rejected summary.",
+            "componentIds": ["rm-table"]
+          },
+          {
+            "field": "ciLow",
+            "label": "Grouped 95% confidence interval",
+            "definition": "Bootstrap confidence interval resampled by source post so comparisons from the same post remain grouped.",
+            "componentIds": ["rm-table"]
+          },
+          {
+            "field": "rewardLengthCorrelation",
+            "label": "Reward-length correlation",
+            "definition": "Pearson correlation between chosen-minus-rejected reward and chosen-minus-rejected candidate length.",
+            "componentIds": ["rm-table", "limitations"]
+          }
+        ]
+      }
+    },
+    "automatic_metrics": {
+      "label": "Automatic metrics on the fixed 500-post test set",
+      "rows": [
+        {
+          "model": "Base",
+          "samples": 500,
+          "rouge1": 0.1383,
+          "rouge2": 0.0360,
+          "rougeL": 0.1094,
+          "meanWords": 96.42,
+          "repetition3gram": 0.5612,
+          "eosRate": 0.086
+        },
+        {
+          "model": "SFT",
+          "samples": 500,
+          "rouge1": 0.3269,
+          "rouge2": 0.1161,
+          "rougeL": 0.2561,
+          "meanWords": 26.66,
+          "repetition3gram": 0.0555,
+          "eosRate": 0.962
+        },
+        {
+          "model": "PPO",
+          "samples": 500,
+          "rouge1": 0.3247,
+          "rouge2": 0.1113,
+          "rougeL": 0.2379,
+          "meanWords": 47.36,
+          "repetition3gram": 0.0650,
+          "eosRate": 0.916
+        }
+      ],
+      "source": {
+        "label": "Generated-summary automatic metrics",
+        "files": ["results/full/automatic_metrics_test.json"],
+        "filters": ["Same 500 held-out posts and generation settings for Base, SFT, and PPO"],
+        "metricDefinitions": [
+          {
+            "field": "rougeL",
+            "label": "ROUGE-L",
+            "definition": "Mean ROUGE-L F1 against the reference TL;DR summaries across the fixed test set.",
+            "componentIds": ["metrics-table"]
+          },
+          {
+            "field": "repetition3gram",
+            "label": "3-gram repetition",
+            "definition": "Mean share of generated 3-grams that repeat within each summary; lower is better.",
+            "componentIds": ["metrics-table"]
+          },
+          {
+            "field": "eosRate",
+            "label": "EOS rate",
+            "definition": "Share of summaries that emitted EOS before reaching the configured generation limit.",
+            "componentIds": ["metrics-table"]
+          }
+        ]
+      }
+    },
+    "judge_results": {
+      "label": "Qwen blind pairwise evaluation",
+      "rows": [
+        {
+          "comparison": "PPO vs SFT",
+          "target": "PPO",
+          "completePosts": 497,
+          "preferenceScore": 0.7188,
+          "ciLow": 0.6856,
+          "ciHigh": 0.7510,
+          "orderConsistency": 0.8390
+        },
+        {
+          "comparison": "SFT vs Base",
+          "target": "SFT",
+          "completePosts": 498,
+          "preferenceScore": 0.8790,
+          "ciLow": 0.8549,
+          "ciHigh": 0.9011,
+          "orderConsistency": 0.9257
+        },
+        {
+          "comparison": "PPO vs Base",
+          "target": "PPO",
+          "completePosts": 497,
+          "preferenceScore": 0.8984,
+          "ciLow": 0.8763,
+          "ciHigh": 0.9205,
+          "orderConsistency": 0.9598
+        }
+      ],
+      "source": {
+        "label": "Qwen3-Max blind pairwise judge summary",
+        "files": [
+          "results/full/judge_summary_test.json",
+          "results/full/judge_test.jsonl"
+        ],
+        "filters": [
+          "Judge: qwen3-max-2026-01-23, Beijing endpoint, temperature 0, thinking disabled",
+          "Two A/B orders per post; ties score 0.5"
+        ],
+        "assumptions": [
+          "Qwen judge preference is not human preference and cannot be compared directly with the paper's human-evaluation values.",
+          "Fourteen of 3,000 unique judgments were blocked by provider content filtering; pair statistics use complete two-order post groups only."
+        ],
+        "metricDefinitions": [
+          {
+            "field": "preferenceScore",
+            "label": "Target preference score",
+            "definition": "Mean post-level preference for the target model after averaging both A/B orders; a tie contributes 0.5.",
+            "componentIds": ["executive-summary", "judge-table"]
+          },
+          {
+            "field": "ciLow",
+            "label": "Post-bootstrap 95% confidence interval",
+            "definition": "2.5th and 97.5th percentiles from 10,000 bootstrap samples over posts.",
+            "componentIds": ["judge-table"]
+          },
+          {
+            "field": "orderConsistency",
+            "label": "Order consistency",
+            "definition": "Share of complete post groups where the same actual model wins in both presentation orders.",
+            "componentIds": ["judge-table", "limitations"]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Coverage",
+            "detail": "2,986 of 3,000 unique calls succeeded. Fourteen were rejected by provider content inspection on both the initial and retry runs. The append-only log retains 28 historical error rows across those two attempts."
+          }
+        ]
+      }
+    },
+    "validation": {
+      "label": "Run integrity checks",
+      "rows": [
+        {
+          "check": "Full pipeline",
+          "result": "Passed",
+          "detail": "pipeline.exit = 0"
+        },
+        {
+          "check": "Unit tests",
+          "result": "Passed",
+          "detail": "8 passed"
+        },
+        {
+          "check": "Forbidden split overlaps",
+          "result": "Passed",
+          "detail": "0 overlaps"
+        },
+        {
+          "check": "Final PPO checkpoint",
+          "result": "Passed",
+          "detail": "checkpoint-320 retained on server"
+        }
+      ],
+      "source": {
+        "label": "Pipeline markers and verification outputs",
+        "files": [
+          "logs/full/pipeline.current",
+          "logs/full/pipeline.exit",
+          "logs/full/data.log"
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Test command",
+            "detail": "PYTHONPATH=. .conda/bin/pytest -q returned 8 passed on the server environment."
+          }
+        ]
+      }
+    }
+  }
+}

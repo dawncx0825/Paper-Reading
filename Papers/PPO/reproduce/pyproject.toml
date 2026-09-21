@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ppo-tldr-reproduction"
+version = "0.1.0"
+description = "Single-RTX-3090 reproduction of Learning to Summarize from Human Feedback"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+include = ["ppo_repro*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
