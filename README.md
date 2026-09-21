@@ -37,7 +37,7 @@ paper-reading/
     │   ├── Vstar论文总结.md             # 阅读总结
     │   └── figures/                    # 论文图片
     └── PPO/
-        ├── 2009.01325v3.pdf             # Learning to Summarize from Human Feedback
+        ├── 2009.01325v3.pdf             # 论文原文
         ├── 论文总结.md                  # 阅读总结
         ├── figures/                    # 论文图片
         └── reproduce/                  # 单卡 RLHF 复现
