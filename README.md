@@ -1,4 +1,4 @@
-# Paper Reading
+# Paper-Reading
 
 论文阅读资料与可复用的 AI 学习技能。`Skills/` 提供论文精读与闭卷复现式代码学习流程，`Papers/` 按论文保存原文、总结、问答和论文图片。
 
@@ -7,7 +7,7 @@
 ## 目录结构
 
 ```text
-paper-reading/
+Paper-Reading/
 ├── README.md
 ├── Skills/
 │   ├── paper-reading/
