@@ -29,17 +29,17 @@ Paper-Reading/
     │   └── figures/                    # 论文图片
     ├── ViT/
     │   ├── 2010.11929v2.pdf             # 论文原文
-    │   ├── ViT论文总结.md               # 阅读总结
+    │   ├── ViT论文总结.pdf               # 阅读总结
     │   ├── ViT论文问答记录.md           # 问题、回答与上下文
     │   ├── figures/                    # 论文图片
     │   └── reproduce/                  # 论文复现（进行中）
     ├── V*/
     │   ├── 2312.14135v2.pdf             # 论文原文
-    │   ├── Vstar论文总结.md             # 阅读总结
+    │   ├── Vstar论文总结.pdf             # 阅读总结
     │   └── figures/                    # 论文图片
     ├── PPO/
     │   ├── 2009.01325v3.pdf             # 论文原文
-    │   ├── 论文总结.md                  # 阅读总结
+    │   ├── 论文总结.pdf                  # 阅读总结
     │   ├── figures/                    # 论文图片
     │   └── reproduce/                  # 论文复现
     └── DPO/
@@ -108,9 +108,9 @@ fi
 | 论文 | 主题 | 阅读资料 |
 | --- | --- | --- |
 | **InstructGPT** — Training Language Models to Follow Instructions with Human Feedback | 指令遵循、人类反馈、RLHF | [原文](Papers/instructGPT/2203.02155v1.pdf) · [总结](Papers/instructGPT/InstructGPT_论文总结.pdf) · [问答与上下文](Papers/instructGPT/InstructGPT_论文问答记录.md) · [图片](Papers/instructGPT/figures/) |
-| **ViT** — An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | 视觉 Transformer、图像分类、大规模预训练 | [原文](Papers/ViT/2010.11929v2.pdf) · [总结](Papers/ViT/ViT论文总结.md) · [问答与上下文](Papers/ViT/ViT论文问答记录.md) · [图片](Papers/ViT/figures/) · [复现（进行中）](Papers/ViT/reproduce/) |
-| **V\*** — Guided Visual Search as a Core Mechanism in Multimodal LLMs | 多模态大语言模型、引导式视觉搜索、细粒度视觉定位 | [原文](Papers/V%2A/2312.14135v2.pdf) · [总结](Papers/V%2A/Vstar论文总结.md) · [图片](Papers/V%2A/figures/) |
-| **PPO / RLHF 摘要** — Learning to Summarize from Human Feedback | 人类偏好、奖励模型、PPO、文本摘要 | [原文](Papers/PPO/2009.01325v3.pdf) · [总结](Papers/PPO/论文总结.md) · [图片](Papers/PPO/figures/) · [复现](Papers/PPO/reproduce/) |
+| **ViT** — An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | 视觉 Transformer、图像分类、大规模预训练 | [原文](Papers/ViT/2010.11929v2.pdf) · [总结](Papers/ViT/ViT论文总结.pdf) · [问答与上下文](Papers/ViT/ViT论文问答记录.md) · [图片](Papers/ViT/figures/) · [复现（进行中）](Papers/ViT/reproduce/) |
+| **V\*** — Guided Visual Search as a Core Mechanism in Multimodal LLMs | 多模态大语言模型、引导式视觉搜索、细粒度视觉定位 | [原文](Papers/V%2A/2312.14135v2.pdf) · [总结](Papers/V%2A/Vstar论文总结.pdf) · [图片](Papers/V%2A/figures/) |
+| **PPO / RLHF 摘要** — Learning to Summarize from Human Feedback | 人类偏好、奖励模型、PPO、文本摘要 | [原文](Papers/PPO/2009.01325v3.pdf) · [总结](Papers/PPO/论文总结.pdf) · [图片](Papers/PPO/figures/) · [复现](Papers/PPO/reproduce/) |
 | **DPO** — Direct Preference Optimization: Your Language Model is Secretly a Reward Model | 偏好优化、语言模型对齐、隐式奖励模型 | [原文](Papers/DPO/2305.18290v3.pdf) · [总结](Papers/DPO/论文总结.pdf) · [图片](Papers/DPO/figures/) |
 
 需要回顾整体内容时先看总结；需要理解段落、公式或实验时，结合原文查阅问答记录。各论文的 `figures/` 文件夹保存论文图片，可配合总结中的图号查阅。可安装、可复用的通用流程以 `Skills/` 中的版本为准。
