@@ -12,4 +12,4 @@
 
 # Git 提交与推送规则
 
-当用户要求提交或推送论文资料时，若论文总结已有对应的 PDF 版本，只提交总结 PDF，不提交该总结的 Markdown 源文件；Markdown 保留在本地。若没有总结 PDF，则可以提交 Markdown 总结。论文原文 PDF 不视为总结 PDF；README、问答记录和复现文档不受此规则影响。提交前检查暂存区，并为有 PDF 的总结 Markdown 添加对应的 `.gitignore` 规则。
+当用户要求提交或推送论文资料时，论文总结统一只提交 PDF，不提交该总结的 Markdown 源文件；Markdown 保留在本地。若只有 Markdown 总结，先生成对应的 PDF，检查中文、公式、表格和图片的渲染完整性，再提交 PDF。若 Markdown 已更新，应同步重新生成总结 PDF，确保上传的是最新内容。论文原文 PDF 不视为总结 PDF；README、问答记录和复现文档不受此规则影响。提交前检查暂存区，为总结 Markdown 添加对应的 `.gitignore` 规则，并将阅读索引指向总结 PDF。若本次提交范围内的总结 Markdown 已被 Git 跟踪，应在保留本地源文件的前提下取消跟踪，以 PDF 替代。
