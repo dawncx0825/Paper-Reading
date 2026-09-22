@@ -1,0 +1,174 @@
+{
+  "bf16_supported": true,
+  "created_at": "2026-09-21T07:19:59.263623+00:00",
+  "cuda_available": true,
+  "device_memory_bytes": 25323503616,
+  "device_name": "NVIDIA GeForce RTX 3090",
+  "numpy": "2.1.3",
+  "nvidia_smi": "NVIDIA GeForce RTX 3090, 24576 MiB, 4 MiB, 565.57.01, 8.6",
+  "platform": "Linux-5.15.0-119-generic-x86_64-with-glibc2.31",
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "source": {
+    "files": [
+      {
+        "bytes": 542,
+        "path": "configs/benchmark.json",
+        "sha256": "4b1179e8caad4364d4f7294f462747979b8613d43869fe581c27016fe5df002e"
+      },
+      {
+        "bytes": 554,
+        "path": "configs/dev_lr_0.001.json",
+        "sha256": "3dbaa107640323b5168365368641c18304ca9ec50dfce9899f2ec39947a19fc9"
+      },
+      {
+        "bytes": 554,
+        "path": "configs/dev_lr_0.003.json",
+        "sha256": "76b143f21c0ebc2d1f90a1cacc102ba24cec8d5371c4249c09c77c8c52193446"
+      },
+      {
+        "bytes": 552,
+        "path": "configs/dev_lr_0.01.json",
+        "sha256": "315197dbb968f9f3b3c31c8ebeaecf6619303b008d927c45f515e61a3f83b299"
+      },
+      {
+        "bytes": 552,
+        "path": "configs/dev_lr_0.03.json",
+        "sha256": "10b8a5dbb4bec280331b27faac89a096be32c79f4c0d4260325628ad2faf8473"
+      },
+      {
+        "bytes": 543,
+        "path": "configs/formal.json",
+        "sha256": "dd9211cc5566d3658fe66ed88493dbf16c144d9daecac3cdfc8c0fd55d208e97"
+      },
+      {
+        "bytes": 534,
+        "path": "configs/smoke.json",
+        "sha256": "6a883d9d2a8c82a048f7f43ca658026eac3543ca5eb66408b510ac52ec13f605"
+      },
+      {
+        "bytes": 501,
+        "path": "pyproject.toml",
+        "sha256": "a9bd5027123bae10f930af13654811f8dbe0929ca1891c3d13af642c94c3c1dd"
+      },
+      {
+        "bytes": 149,
+        "path": "requirements-validation.txt",
+        "sha256": "aec7802163c568dafe2e81939a326f9d70bdb72cfbcc96353782a94a0477136b"
+      },
+      {
+        "bytes": 76,
+        "path": "requirements.txt",
+        "sha256": "7148cce21eb96b275c6af31fb5a3eaf803a161597677f9134473d4a5975ffe7d"
+      },
+      {
+        "bytes": 1675,
+        "path": "scripts/check_env.py",
+        "sha256": "ae1f35701784b8650d6101c7f364df269c1c30c4131acea5d745de4dc402cab4"
+      },
+      {
+        "bytes": 1554,
+        "path": "scripts/download_assets.py",
+        "sha256": "e39849414e8bf776ed529cf6527e788357b4fbe6209e209dc3c3668a183928ca"
+      },
+      {
+        "bytes": 1797,
+        "path": "scripts/evaluate.py",
+        "sha256": "a537a456e8bfc7cd2344035a98b1947801cf6938c29c7276d2ba0865a15a7d87"
+      },
+      {
+        "bytes": 1152,
+        "path": "scripts/inspect_weights.py",
+        "sha256": "d64c5d3debfb271038b7d2523accc2268df0c2872093811dc400442a5f4b879e"
+      },
+      {
+        "bytes": 2011,
+        "path": "scripts/prepare_data.py",
+        "sha256": "8c73f3c770c17584e3097d031af07ffd0897f4a696e564d1ad2535c992bea846"
+      },
+      {
+        "bytes": 477,
+        "path": "scripts/run_formal_seeds.sh",
+        "sha256": "f7f313e3e0a0867f07d380aa027d8488995c57e3677c23f7105149ed98e5365b"
+      },
+      {
+        "bytes": 4078,
+        "path": "scripts/run_full_pipeline.py",
+        "sha256": "0e2686af6057b65206326f8d7d79c66b0b31710399386337e531437c64ee0c66"
+      },
+      {
+        "bytes": 192,
+        "path": "scripts/run_lr_search.sh",
+        "sha256": "f11d3c519bf5b8b841153e3e368d1f02bb300d6d31e1931d3ab045d7d633163e"
+      },
+      {
+        "bytes": 1594,
+        "path": "scripts/summarize_results.py",
+        "sha256": "59d3d889f142caffa7d50dd3ea2ee8af99b6bcadde08c549e504e4c7bda1d306"
+      },
+      {
+        "bytes": 4639,
+        "path": "scripts/train.py",
+        "sha256": "850cd052c77c8244fb420b06201f1ee916f3b888e9072b1b9c2166d967cae258"
+      },
+      {
+        "bytes": 3965,
+        "path": "scripts/validate_jax_parity.py",
+        "sha256": "393a52ed5d524c05d7ecb43d6d5b6ea98b79cfc291e3ca263b0b6292768cb275"
+      },
+      {
+        "bytes": 696,
+        "path": "tests/test_data.py",
+        "sha256": "6dc0101fadd89ffe2736daab04c5cfa33ca17bc37d06c3897ae55634e05cc805"
+      },
+      {
+        "bytes": 1864,
+        "path": "tests/test_engine.py",
+        "sha256": "77b4b4c445c18058cf415255f9d34ecfeb4a46b2369c8543f06688943efab3d6"
+      },
+      {
+        "bytes": 1275,
+        "path": "tests/test_model.py",
+        "sha256": "dfd87e47e52b297d2bd4667fca1f84ca1ef47ee068a2d396ce9aefad05b28e05"
+      },
+      {
+        "bytes": 71,
+        "path": "vit_repro/__init__.py",
+        "sha256": "661b0f95dc2ccb850f906002d1ca9a279c962cb2652f46f06bfb62c8629f7485"
+      },
+      {
+        "bytes": 2135,
+        "path": "vit_repro/config.py",
+        "sha256": "17463677f7a262ef615490f39b332c2edee1945f76e6be420d6db879baa48a36"
+      },
+      {
+        "bytes": 6193,
+        "path": "vit_repro/data.py",
+        "sha256": "10b1663532c29236561571661fbf129a945ce3d785cf3f909d88cdfc388f5dab"
+      },
+      {
+        "bytes": 9868,
+        "path": "vit_repro/engine.py",
+        "sha256": "eadc29a71a225020da940cd453ad914febde181fd337620dac4d0a54a3cb6586"
+      },
+      {
+        "bytes": 5903,
+        "path": "vit_repro/model.py",
+        "sha256": "7c1fc50daccf50d46a19a5f834fd3da8fa943fa1de3908b9139c8679cc7a72df"
+      },
+      {
+        "bytes": 3154,
+        "path": "vit_repro/utils.py",
+        "sha256": "cdc45b131d2034e03c09811059c4b7590eaa6246eed939bead94d4a500b23ef0"
+      },
+      {
+        "bytes": 6677,
+        "path": "vit_repro/weights.py",
+        "sha256": "fe6f857ea1e418ee1461a05c41f2197faafcfa700418326b124329e7dbef40bd"
+      }
+    ],
+    "tree_sha256": "a50cd829e1fb98287194b86b20281dce81f7380c6a0d76afd4ff1dbf6ffee202"
+  },
+  "torch": "2.6.0+cu124",
+  "torch_cuda": "12.4",
+  "torchvision": "0.21.0+cu124"
+}

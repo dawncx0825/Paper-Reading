@@ -1,0 +1,8 @@
+# Optional one-time cross-framework encoder parity audit.
+jax==0.4.38
+jaxlib==0.4.38
+flax==0.10.4
+ml-collections==1.0.0
+einops==0.8.1
+scipy==1.14.1
+

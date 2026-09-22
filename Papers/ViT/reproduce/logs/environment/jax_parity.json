@@ -1,0 +1,17 @@
+{
+  "cosine_similarity": 1.0,
+  "feature_shape": [
+    1,
+    768
+  ],
+  "input_shape_nchw": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "max_absolute_error": 6.854534149169922e-07,
+  "mean_absolute_error": 1.6301486027714418e-07,
+  "official_repo_commit": "64801f1b3b367b3611cc27a3d45cc22870a36fb3",
+  "passed": true
+}

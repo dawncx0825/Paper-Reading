@@ -1,0 +1,11 @@
+{
+  "finished_at": "2026-09-21T07:15:50.636097+00:00",
+  "mean_update_seconds": 3.8674618624150754,
+  "median_update_seconds": 3.7939905831590295,
+  "peak_allocated_bytes": 4552483840,
+  "peak_reserved_bytes": 4804575232,
+  "samples_seen": 5120,
+  "started_at_unix": 1789974911.3460217,
+  "updates_completed": 10,
+  "wall_seconds": 39.29009556770325
+}

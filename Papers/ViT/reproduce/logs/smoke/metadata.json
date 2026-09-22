@@ -1,0 +1,11 @@
+{
+  "accumulation_steps": 2,
+  "created_at": "2026-09-21T07:12:50.244145+00:00",
+  "dev_split_seed": 42,
+  "effective_batch_size": 16,
+  "eval_examples": 1000,
+  "parameter_count": 85875556,
+  "pretrained_sha256": "ac7478131e1b77e5c2f0225849730bd19ee89cfffe600c2dfd2272b34a50a43d",
+  "run_name": "smoke-seed42",
+  "train_examples": 512
+}

@@ -1,0 +1,26 @@
+{
+  "name": "smoke",
+  "seed": 42,
+  "image_size": 224,
+  "num_classes": 100,
+  "train_subset_size": 512,
+  "train_split": "dev_train",
+  "eval_split": "dev",
+  "micro_batch_size": 8,
+  "effective_batch_size": 16,
+  "eval_batch_size": 32,
+  "num_workers": 2,
+  "total_updates": 2,
+  "warmup_updates": 1,
+  "base_lr": 0.01,
+  "momentum": 0.9,
+  "weight_decay": 0.0,
+  "max_grad_norm": 1.0,
+  "precision": "bf16",
+  "dropout": 0.0,
+  "attention_dropout": 0.0,
+  "activation_checkpointing": false,
+  "save_every": 0,
+  "log_every": 1
+}
+

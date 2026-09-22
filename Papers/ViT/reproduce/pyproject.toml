@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vit-repro"
+version = "0.1.0"
+description = "Single-GPU ViT-B/16 ImageNet-21k to CIFAR-100 reproduction"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy==2.1.3",
+  "pillow==11.0.0",
+  "torch==2.6.0",
+  "torchvision==0.21.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.5"]
+
+[tool.setuptools]
+packages = ["vit_repro"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
