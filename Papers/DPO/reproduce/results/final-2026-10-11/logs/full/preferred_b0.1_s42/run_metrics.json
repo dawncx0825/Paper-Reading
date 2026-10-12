@@ -1,0 +1,19 @@
+{
+  "run": "preferred_b0.1_s42",
+  "updates": 2344,
+  "training_examples": 149978,
+  "elapsed_seconds": 10748.027042525937,
+  "last": {
+    "update": 2344,
+    "loss": 438.25687115009015,
+    "grad_norm": 136.37957763671875,
+    "lr": 1e-06,
+    "seconds": 1.851498206029646,
+    "examples": 26,
+    "allocated_gib": 11.287333965301514,
+    "reserved_gib": 14.419921875
+  },
+  "model_sha256": "5e266772ead83a643b3f3b4c2ef390681bef5537c864547d24d6ff6199dc875a",
+  "resume_used": false,
+  "parameter_count": 774030080
+}

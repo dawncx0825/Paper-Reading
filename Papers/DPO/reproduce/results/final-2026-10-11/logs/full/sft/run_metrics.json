@@ -1,0 +1,19 @@
+{
+  "run": "sft",
+  "updates": 372,
+  "training_examples": 23781,
+  "elapsed_seconds": 2947.704118325026,
+  "last": {
+    "update": 372,
+    "loss": 3.1190327824773014,
+    "grad_norm": 0.796466052532196,
+    "lr": 1e-05,
+    "seconds": 4.662429678020999,
+    "examples": 37,
+    "allocated_gib": 11.283427715301514,
+    "reserved_gib": 14.736328125
+  },
+  "model_sha256": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+  "resume_used": false,
+  "parameter_count": 774030080
+}

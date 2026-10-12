@@ -1,0 +1,52 @@
+{
+  "config_digest": "3e42975ab3d78af76885d905c245a9bbe81a21eacc44e4fbeae78688dcbcfcc3",
+  "counts": {
+    "test": {
+      "prefixes": 1000,
+      "unique_reviews": 1000
+    },
+    "dev": {
+      "prefixes": 500,
+      "unique_reviews": 500
+    },
+    "train": {
+      "prefixes": 25000,
+      "unique_reviews": 20948
+    }
+  },
+  "sft_rows": 23781,
+  "review_pools": {
+    "train": 23781,
+    "dev": 1000,
+    "test": 24801
+  },
+  "label_counts": {
+    "train": {
+      "0": 11840,
+      "1": 11941
+    },
+    "dev": {
+      "0": 497,
+      "1": 503
+    },
+    "test": {
+      "0": 12361,
+      "1": 12440
+    }
+  },
+  "sft_truncated": 9912,
+  "sft_lengths": [
+    12.0,
+    223.0,
+    256.0,
+    256.0
+  ],
+  "assets_lock_sha": "ab38bd0bf2301cb402a6efdca42282fb3d51d49108187e1665720e4d07879e8f",
+  "files": {
+    "sft.jsonl": "3c5657dd266d264fb43ecfbec1d57444f93df0aaf8191b48799b1eddad1e20b6",
+    "prompts_test.jsonl": "3da1a18bd990ffeba71574cc4a7b25de7be19c95a468528fb2e8f1bf121b713e",
+    "prompts_dev.jsonl": "46fbe62584c97ed06a0847d7b5d13c8536fb0c9dd8316658df29f12886fd7c09",
+    "prompts_train.jsonl": "69465a85910ba339b3be2d131eef4e10641185f60b97a5a8a536175b6f35065d"
+  },
+  "split_policy": "content-hash; official test excluded; 1000 training reviews held out for dev"
+}

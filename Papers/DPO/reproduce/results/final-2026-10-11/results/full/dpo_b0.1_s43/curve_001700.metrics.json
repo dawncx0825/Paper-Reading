@@ -1,0 +1,22 @@
+{
+  "fingerprint": {
+    "generation_sha": "040a3416b9b2e2f2187023b3de0a1e5fbcdbc52dc18d4523d4b99432e25a6b8e",
+    "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+    "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+  },
+  "prompts": 32,
+  "generations": 32,
+  "reward": 0.9989056661725044,
+  "kl": 10.141231536865234,
+  "reward_ci95": [
+    0.9988932911306619,
+    0.9989160227123648
+  ],
+  "kl_ci95": [
+    8.449453854560852,
+    12.099774158000946
+  ],
+  "mean_length": 109.90625,
+  "eos_fraction": 0.5,
+  "repetition_3gram": 0.0028151722680719894
+}

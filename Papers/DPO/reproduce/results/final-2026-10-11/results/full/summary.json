@@ -1,0 +1,5762 @@
+[
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_000100",
+    "fingerprint": {
+      "generation_sha": "781b143bc9f59be87f97eadb987f57275d1442e3c1ed60d817c6912ba4e0c876",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.78060869399269,
+    "kl": 1.4113473892211914,
+    "reward_ci95": [
+      0.625482309504332,
+      0.9056097072811099
+    ],
+    "kl_ci95": [
+      0.976175332069397,
+      1.8543572545051574
+    ],
+    "mean_length": 106.28125,
+    "eos_fraction": 0.40625,
+    "repetition_3gram": 0.0010717104319127556
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_000200",
+    "fingerprint": {
+      "generation_sha": "42c20155ae22b69524681be88eb99d02a3e2fbbfb5879e903ab39008bae6fa6a",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9051808699841786,
+    "kl": 5.701072454452515,
+    "reward_ci95": [
+      0.781233286202405,
+      0.9984323495533317
+    ],
+    "kl_ci95": [
+      4.662540858983993,
+      6.729744070768356
+    ],
+    "mean_length": 112.8125,
+    "eos_fraction": 0.40625,
+    "repetition_3gram": 0.0023607944330031674
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_000300",
+    "fingerprint": {
+      "generation_sha": "4505feb1a53fb4a6474d20f248f69c219beee2a64d95038276c4b96bcf15eff8",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989011995494366,
+    "kl": 10.560009241104126,
+    "reward_ci95": [
+      0.9988891741726548,
+      0.9989121615421027
+    ],
+    "kl_ci95": [
+      8.929467475414276,
+      12.283614200353622
+    ],
+    "mean_length": 114.28125,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.0021828321540880505
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_000400",
+    "fingerprint": {
+      "generation_sha": "804518f8b768bfc18d532d1b2d8a0f366fa37bd5a849baef5c2feb43a1e1d4d2",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989188220351934,
+    "kl": 13.445252418518066,
+    "reward_ci95": [
+      0.9989121450576931,
+      0.9989250955171883
+    ],
+    "kl_ci95": [
+      11.551280796527863,
+      15.340332317352294
+    ],
+    "mean_length": 116.53125,
+    "eos_fraction": 0.375,
+    "repetition_3gram": 0.0017752080477252997
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_000500",
+    "fingerprint": {
+      "generation_sha": "fb7728b7d55be09b4785218c974aed783a3a8017e6d1416db7da4b487f8c85e0",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989054184406996,
+    "kl": 14.107922554016113,
+    "reward_ci95": [
+      0.9988753143697977,
+      0.998924505384639
+    ],
+    "kl_ci95": [
+      12.37508738040924,
+      15.868220925331116
+    ],
+    "mean_length": 118.625,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.004773535267347917
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_000600",
+    "fingerprint": {
+      "generation_sha": "e144a60451c2aab38bf90d358248f24e763b1bf6786e2787f91befc67fc7d6fd",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989116713404655,
+    "kl": 14.775886535644531,
+    "reward_ci95": [
+      0.9988868375774473,
+      0.9989264592528343
+    ],
+    "kl_ci95": [
+      12.499718773365021,
+      17.08821028470993
+    ],
+    "mean_length": 116.1875,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0031352212086692907
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_000700",
+    "fingerprint": {
+      "generation_sha": "42fd5e8b029c409bdb60bb6733c71be7c6daf87281b3cb2b1ea793c9478cacd6",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989167936146259,
+    "kl": 15.296163558959961,
+    "reward_ci95": [
+      0.9989080040249974,
+      0.9989245889242738
+    ],
+    "kl_ci95": [
+      13.544175934791564,
+      17.180491852760312
+    ],
+    "mean_length": 125.3125,
+    "eos_fraction": 0.09375,
+    "repetition_3gram": 0.0023608144896990653
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_000800",
+    "fingerprint": {
+      "generation_sha": "481dd989cf2045d415518fd1618911a05b40271c9251b1c94d36b50c8ed6a525",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989172164350748,
+    "kl": 15.248538494110107,
+    "reward_ci95": [
+      0.9989072028081865,
+      0.9989254008978605
+    ],
+    "kl_ci95": [
+      13.158863854408263,
+      17.25914658308029
+    ],
+    "mean_length": 120.90625,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.00126032464280142
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_000900",
+    "fingerprint": {
+      "generation_sha": "d0390cec9e765f8560209dac4df9a7c1c2d374dcf0fb370057576dad8e50832b",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989173170179129,
+    "kl": 15.784464836120605,
+    "reward_ci95": [
+      0.9989067271817476,
+      0.9989256149157881
+    ],
+    "kl_ci95": [
+      14.22372500896454,
+      17.28227231502533
+    ],
+    "mean_length": 125.40625,
+    "eos_fraction": 0.09375,
+    "repetition_3gram": 0.002014625702269044
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_001000",
+    "fingerprint": {
+      "generation_sha": "012bf02297c4182cd35ea5cb231eb2b3117c54e0f176d1d8711fb956950836b6",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989169463515282,
+    "kl": 16.804819107055664,
+    "reward_ci95": [
+      0.9989092305768281,
+      0.9989236292429269
+    ],
+    "kl_ci95": [
+      14.780797338485717,
+      18.7649863243103
+    ],
+    "mean_length": 121.9375,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0019457192260516655
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_001100",
+    "fingerprint": {
+      "generation_sha": "300712d419a442b1e6263196b2caaf77fc7568233e456a944d69e8b3a0e7e960",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989199936389923,
+    "kl": 17.2585711479187,
+    "reward_ci95": [
+      0.9989123807754368,
+      0.9989264589734376
+    ],
+    "kl_ci95": [
+      15.016913735866547,
+      19.295677149295805
+    ],
+    "mean_length": 118.5,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.002252483247928653
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_001200",
+    "fingerprint": {
+      "generation_sha": "854c653535e6bc1a979019185d755b2f983061f74e2a4f58786aefe4c01035cb",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989203792065382,
+    "kl": 18.465869903564453,
+    "reward_ci95": [
+      0.9989088902249932,
+      0.9989287687465549
+    ],
+    "kl_ci95": [
+      16.50724459886551,
+      20.443717646598817
+    ],
+    "mean_length": 120.09375,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.002658806363234789
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_001300",
+    "fingerprint": {
+      "generation_sha": "b103997b4877c34bdc4ee78a2c0f290562cba542cbcd619e2661f39b4c43379d",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989227745682001,
+    "kl": 19.471884727478027,
+    "reward_ci95": [
+      0.9989155526272953,
+      0.9989289310760796
+    ],
+    "kl_ci95": [
+      17.81563801765442,
+      21.183936977386473
+    ],
+    "mean_length": 123.84375,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.003696445778475853
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_001400",
+    "fingerprint": {
+      "generation_sha": "67c29e857d890113adf529289ace7f37a79631fae1ddeb26f4138f7351f0aac1",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989269468933344,
+    "kl": 18.898274898529053,
+    "reward_ci95": [
+      0.9989229663275182,
+      0.9989304934628308
+    ],
+    "kl_ci95": [
+      17.14994720220566,
+      20.646866393089294
+    ],
+    "mean_length": 117.46875,
+    "eos_fraction": 0.4375,
+    "repetition_3gram": 0.0025958022256823837
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_001500",
+    "fingerprint": {
+      "generation_sha": "31aa6a285c28cf145390d9e8ab6975585c8327807fd07fdf4625544fdbcd7090",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989242386072874,
+    "kl": 17.760361194610596,
+    "reward_ci95": [
+      0.9989186336752027,
+      0.9989294114988297
+    ],
+    "kl_ci95": [
+      15.738454806804658,
+      19.97578513622284
+    ],
+    "mean_length": 118.4375,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.004559357496527826
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_001600",
+    "fingerprint": {
+      "generation_sha": "0bea0ea06d563f94a10376159f78189270428f5c3fd2742fc20bd1a2a1bece69",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989207703620195,
+    "kl": 17.720240592956543,
+    "reward_ci95": [
+      0.9989127739332616,
+      0.9989276480395347
+    ],
+    "kl_ci95": [
+      15.70430792570114,
+      19.77837357521057
+    ],
+    "mean_length": 109.5,
+    "eos_fraction": 0.46875,
+    "repetition_3gram": 0.005004321686031175
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_001700",
+    "fingerprint": {
+      "generation_sha": "8980505a05c1c755c1110a641a6e37bfa723b4736eac8a7856d608dcc0e0546d",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989212825894356,
+    "kl": 17.58716320991516,
+    "reward_ci95": [
+      0.9989035739097745,
+      0.9989317616447806
+    ],
+    "kl_ci95": [
+      15.219798451662063,
+      19.937942111492156
+    ],
+    "mean_length": 114.1875,
+    "eos_fraction": 0.375,
+    "repetition_3gram": 0.00481420488122155
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_001800",
+    "fingerprint": {
+      "generation_sha": "99062724e624710d2a56129edb405cea28c03a8d65bd13a4889e6061ae8ec677",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989288374781609,
+    "kl": 16.275432586669922,
+    "reward_ci95": [
+      0.9989249830134213,
+      0.9989325013477355
+    ],
+    "kl_ci95": [
+      13.934450900554657,
+      18.452231383323667
+    ],
+    "mean_length": 97.5625,
+    "eos_fraction": 0.59375,
+    "repetition_3gram": 0.003676594086890396
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_001900",
+    "fingerprint": {
+      "generation_sha": "2a7e0b5311aea90a3392a9b5061db4961f4870063394baccceb58447e606d3fc",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989111255854368,
+    "kl": 16.119502544403076,
+    "reward_ci95": [
+      0.9988828279078007,
+      0.9989283074159175
+    ],
+    "kl_ci95": [
+      13.72788072824478,
+      18.581813991069794
+    ],
+    "mean_length": 99.125,
+    "eos_fraction": 0.5625,
+    "repetition_3gram": 0.0064421883671452775
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_002000",
+    "fingerprint": {
+      "generation_sha": "a56a6bb0e8704ea852d7c306423a8e463bc36b856d55b7adbf666cb2f3dfc5a4",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989248216152191,
+    "kl": 15.313816785812378,
+    "reward_ci95": [
+      0.9989180759061128,
+      0.9989305187016726
+    ],
+    "kl_ci95": [
+      12.706814312934876,
+      18.03997409343719
+    ],
+    "mean_length": 87.75,
+    "eos_fraction": 0.8125,
+    "repetition_3gram": 0.0045742860103636755
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_002100",
+    "fingerprint": {
+      "generation_sha": "5ed3cbefe9e200071d14096a48d347b59061014f023ec6b5998146245072d29e",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989211019128561,
+    "kl": 16.70723271369934,
+    "reward_ci95": [
+      0.9989137928001582,
+      0.9989272255916148
+    ],
+    "kl_ci95": [
+      14.416029554605483,
+      19.173443341255187
+    ],
+    "mean_length": 106.59375,
+    "eos_fraction": 0.5,
+    "repetition_3gram": 0.004451832285598388
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_002200",
+    "fingerprint": {
+      "generation_sha": "4b1b76fca318d73770e27911cb9c8a8eddf7a23dcbe1707f5f0b76fdf7699e04",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989264495670795,
+    "kl": 17.743222951889038,
+    "reward_ci95": [
+      0.9989210848230868,
+      0.9989307504612952
+    ],
+    "kl_ci95": [
+      14.98134117126465,
+      20.32161105275154
+    ],
+    "mean_length": 107.09375,
+    "eos_fraction": 0.5625,
+    "repetition_3gram": 0.004648072528680689
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_002300",
+    "fingerprint": {
+      "generation_sha": "82a7001863d87ca067223832f42a24b45d8c9c6bc341a6f564b0f7aaf2fdf669",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.998926067724824,
+    "kl": 16.306677103042603,
+    "reward_ci95": [
+      0.9989173280540854,
+      0.9989318220876158
+    ],
+    "kl_ci95": [
+      14.035411095619201,
+      18.447124737501145
+    ],
+    "mean_length": 101.96875,
+    "eos_fraction": 0.65625,
+    "repetition_3gram": 0.004274871648896849
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "curve_002344",
+    "fingerprint": {
+      "generation_sha": "e34abda34e9f05040452281a49d3ef244772f0d88bc6030b417b1e53b5e5cab2",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989251587539911,
+    "kl": 16.566232681274414,
+    "reward_ci95": [
+      0.9989197879098356,
+      0.9989295249804855
+    ],
+    "kl_ci95": [
+      13.978567779064178,
+      19.267467653751375
+    ],
+    "mean_length": 100.03125,
+    "eos_fraction": 0.625,
+    "repetition_3gram": 0.004389234694237083
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "dev",
+    "fingerprint": {
+      "generation_sha": "9c40e7a59c58e9cd3078a6cb06c38a7e6dbd810e82c89010b0ef0c96f8439061",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 500,
+    "generations": 500,
+    "reward": 0.9988968508243561,
+    "kl": 19.18118731689453,
+    "reward_ci95": [
+      0.9988709742635489,
+      0.9989159923166037
+    ],
+    "kl_ci95": [
+      18.537445669555662,
+      19.873616554260256
+    ],
+    "mean_length": 111.41,
+    "eos_fraction": 0.478,
+    "repetition_3gram": 0.002160919021505687
+  },
+  {
+    "run": "dpo_b0.05_s42",
+    "evaluation": "test",
+    "fingerprint": {
+      "generation_sha": "421d939d8516746f51a06b7c029b0d19c3010f7cbde66e94874cc70aeb8d0ea6",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 1000,
+    "generations": 4000,
+    "reward": 0.997937919236545,
+    "kl": 19.04218602657318,
+    "reward_ci95": [
+      0.9964713864798643,
+      0.9989094424981624
+    ],
+    "kl_ci95": [
+      18.75952429699898,
+      19.357670818424225
+    ],
+    "mean_length": 111.712,
+    "eos_fraction": 0.47275,
+    "repetition_3gram": 0.002175047864757121
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_000100",
+    "fingerprint": {
+      "generation_sha": "d7fe6d533208da91a1e41c1457faeb9fff8c79953acde1d22083c398dfac5d9f",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7490350110147119,
+    "kl": 1.1521167755126953,
+    "reward_ci95": [
+      0.5933705486071176,
+      0.9047006487070576
+    ],
+    "kl_ci95": [
+      0.8028661489486695,
+      1.5096361398696896
+    ],
+    "mean_length": 113.21875,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0030493674367436732
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_000200",
+    "fingerprint": {
+      "generation_sha": "99563526571792df002d6889f7894c28927a0bcdda53e9754309a57a1e074648",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9674604044375883,
+    "kl": 4.696497440338135,
+    "reward_ci95": [
+      0.9050061339752574,
+      0.9987956989090889
+    ],
+    "kl_ci95": [
+      3.6727051615715025,
+      5.7490883588790895
+    ],
+    "mean_length": 119.5625,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0017380997836324297
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_000300",
+    "fingerprint": {
+      "generation_sha": "e67056937ba293d71528cc64b760382f2d8dccc79d598db4cbcbc6a3dac2187d",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9676410798565485,
+    "kl": 6.1469457149505615,
+    "reward_ci95": [
+      0.905347804853227,
+      0.9988347266800701
+    ],
+    "kl_ci95": [
+      5.149633759260178,
+      7.110403704643249
+    ],
+    "mean_length": 110.1875,
+    "eos_fraction": 0.4375,
+    "repetition_3gram": 0.0
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_000400",
+    "fingerprint": {
+      "generation_sha": "d2631881c82b49bf15d33a7e8562c7e22c58c68cb21bd00bf65c8af16dd8b8e5",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9674221937366383,
+    "kl": 7.479332447052002,
+    "reward_ci95": [
+      0.9048503589281609,
+      0.9988329938612879
+    ],
+    "kl_ci95": [
+      6.526202166080475,
+      8.465578758716584
+    ],
+    "mean_length": 119.375,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0019043414856982181
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_000500",
+    "fingerprint": {
+      "generation_sha": "564de1b778efdaf836df2a07d523c0147c2cab8fdc03deefc9084c5cdeede52f",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989024884998798,
+    "kl": 8.676602840423584,
+    "reward_ci95": [
+      0.9988920337520539,
+      0.9989130989648402
+    ],
+    "kl_ci95": [
+      7.312444531917572,
+      10.131168413162232
+    ],
+    "mean_length": 121.875,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.002355977900511747
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_000600",
+    "fingerprint": {
+      "generation_sha": "7cce67e2b992c5a2546683c47d61eecf4f19b676ab1eb178ad09d95176ba8224",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989073853939772,
+    "kl": 8.592010498046875,
+    "reward_ci95": [
+      0.9988963840529322,
+      0.9989174934569747
+    ],
+    "kl_ci95": [
+      7.569550001621247,
+      9.663193225860594
+    ],
+    "mean_length": 120.84375,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0023189257726112106
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_000700",
+    "fingerprint": {
+      "generation_sha": "8b48a671f654ca7251063b82b8bb446bf9dc015ef492003062bba874b8e0fd26",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9988825749605894,
+    "kl": 8.236368179321289,
+    "reward_ci95": [
+      0.99883698602207,
+      0.9989111481234432
+    ],
+    "kl_ci95": [
+      6.782930684089661,
+      9.654013323783872
+    ],
+    "mean_length": 121.90625,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.001998836103755123
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_000800",
+    "fingerprint": {
+      "generation_sha": "ba335dfcd9723ffd95ba08b9ee763fb71a2c7708099eaa2cad6d1a28b028a734",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989071022719145,
+    "kl": 7.982400417327881,
+    "reward_ci95": [
+      0.9988902777433395,
+      0.9989190896973014
+    ],
+    "kl_ci95": [
+      6.606254899501801,
+      9.407088804244994
+    ],
+    "mean_length": 118.625,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.003626552402341339
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_000900",
+    "fingerprint": {
+      "generation_sha": "5dd13bb8de1c806dd30b7bb60cf12969c18816e78bbebcf41290b01f0139d08b",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.998897859826684,
+    "kl": 9.57518196105957,
+    "reward_ci95": [
+      0.998873873334378,
+      0.9989140508696437
+    ],
+    "kl_ci95": [
+      8.185950422286988,
+      10.928699660301207
+    ],
+    "mean_length": 119.0,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0022316042376263334
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_001000",
+    "fingerprint": {
+      "generation_sha": "f663257c7eb1677292afb1486756d2daaafec7637e1ce9274cd0bf07d4365abb",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.998899569734931,
+    "kl": 9.99378252029419,
+    "reward_ci95": [
+      0.9988831126131117,
+      0.9989128550514579
+    ],
+    "kl_ci95": [
+      8.572413718700409,
+      11.48283302783966
+    ],
+    "mean_length": 120.375,
+    "eos_fraction": 0.15625,
+    "repetition_3gram": 0.0023553654522755624
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_001100",
+    "fingerprint": {
+      "generation_sha": "97a051ba66a661c2ed447df6bd1a5f9592afb25cf125052a2b1b66299ee110a7",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989015068858862,
+    "kl": 9.114198207855225,
+    "reward_ci95": [
+      0.9988841262180358,
+      0.9989161666482687
+    ],
+    "kl_ci95": [
+      7.702448129653931,
+      10.478166913986206
+    ],
+    "mean_length": 124.75,
+    "eos_fraction": 0.09375,
+    "repetition_3gram": 0.002116384536830527
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_001200",
+    "fingerprint": {
+      "generation_sha": "1398cf8dd8a816cef0741e4b810d2d024dbd87562121e92a45655b84e27c8669",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9988933969289064,
+    "kl": 9.294329166412354,
+    "reward_ci95": [
+      0.9988653199747205,
+      0.9989156022202224
+    ],
+    "kl_ci95": [
+      8.10852438211441,
+      10.416730260848999
+    ],
+    "mean_length": 119.9375,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0005656224406224396
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_001300",
+    "fingerprint": {
+      "generation_sha": "3cc6d8b3d58d432485cfd949787fd12f070a6e85822612d67146d7385e169979",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989080801606178,
+    "kl": 9.386789798736572,
+    "reward_ci95": [
+      0.9988880304154009,
+      0.9989228511694819
+    ],
+    "kl_ci95": [
+      8.24239010810852,
+      10.434803855419158
+    ],
+    "mean_length": 119.65625,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.004553689064558629
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_001400",
+    "fingerprint": {
+      "generation_sha": "43eff31219cccac9afa902a926e9c2f0228e54770028455876e282cdb07cd197",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989161714911461,
+    "kl": 9.142165184020996,
+    "reward_ci95": [
+      0.9989086793735623,
+      0.9989229173399508
+    ],
+    "kl_ci95": [
+      7.711962628364563,
+      10.559341382980346
+    ],
+    "mean_length": 125.65625,
+    "eos_fraction": 0.15625,
+    "repetition_3gram": 0.0012343460111317248
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_001500",
+    "fingerprint": {
+      "generation_sha": "42488a1782a601aa35e20ac617aaf13c734d81335a477cdc8f6e8f6e79db8856",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989108182489872,
+    "kl": 9.435984134674072,
+    "reward_ci95": [
+      0.9988834945484996,
+      0.9989275715313852
+    ],
+    "kl_ci95": [
+      7.84868974685669,
+      11.104367434978485
+    ],
+    "mean_length": 118.53125,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0014728327228327245
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_001600",
+    "fingerprint": {
+      "generation_sha": "1516f05232715f91c73f601c3fbb8f565006518c3c317cd44ebd19ffe33c416b",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989104773849249,
+    "kl": 8.46213150024414,
+    "reward_ci95": [
+      0.9989003774244338,
+      0.9989193164743483
+    ],
+    "kl_ci95": [
+      6.958533978462219,
+      9.926716196537017
+    ],
+    "mean_length": 111.5,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.002096756635937388
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_001700",
+    "fingerprint": {
+      "generation_sha": "13d3536642d219b393361e3f6780a27e7243ede6f852f94a9e77bf88f1cec283",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989083781838417,
+    "kl": 9.081658840179443,
+    "reward_ci95": [
+      0.9988936552312225,
+      0.9989192002918571
+    ],
+    "kl_ci95": [
+      7.908036673069001,
+      10.340662598609924
+    ],
+    "mean_length": 121.46875,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0023017078989659295
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_001800",
+    "fingerprint": {
+      "generation_sha": "de722b60b9d184faec34ff9632d460405b317d4ec6f2162297222a680c635edb",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.998916057869792,
+    "kl": 10.521113395690918,
+    "reward_ci95": [
+      0.9989089791662991,
+      0.998922774894163
+    ],
+    "kl_ci95": [
+      8.990820789337159,
+      12.253960824012756
+    ],
+    "mean_length": 119.03125,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0035470406332857272
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_001900",
+    "fingerprint": {
+      "generation_sha": "b91cd47f83e774a7bab02381c4b08f95546993dea5fd8aa7326f96ec267e88b2",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989086855202913,
+    "kl": 9.799929141998291,
+    "reward_ci95": [
+      0.9988882096484304,
+      0.9989221862982959
+    ],
+    "kl_ci95": [
+      8.479474759101867,
+      11.131210994720458
+    ],
+    "mean_length": 117.4375,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0021528315376119454
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_002000",
+    "fingerprint": {
+      "generation_sha": "5d6b1e132c0f778b339ce1d91de89ced0fc846db3b28c9b7640c46a7b2c106e3",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989054165780544,
+    "kl": 10.742133617401123,
+    "reward_ci95": [
+      0.9988925603218377,
+      0.9989163343328983
+    ],
+    "kl_ci95": [
+      8.961638724803924,
+      12.529257452487945
+    ],
+    "mean_length": 112.65625,
+    "eos_fraction": 0.4375,
+    "repetition_3gram": 0.000820728058510637
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_002100",
+    "fingerprint": {
+      "generation_sha": "b9f75dbc542ea6dcb66b80c662c4e3ec2fd78f57d8cbf9ef3c2ce6d8ed98911a",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989081174135208,
+    "kl": 10.282891988754272,
+    "reward_ci95": [
+      0.9988949634134769,
+      0.9989184851292521
+    ],
+    "kl_ci95": [
+      8.69149072766304,
+      11.981007766723632
+    ],
+    "mean_length": 113.875,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0029397008780462468
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_002200",
+    "fingerprint": {
+      "generation_sha": "d91e2c19499d858d9186cd19d41af83041c1eca9881e6e619f1e44e4152d53cb",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989074878394604,
+    "kl": 10.157442569732666,
+    "reward_ci95": [
+      0.9988924859557301,
+      0.998919908516109
+    ],
+    "kl_ci95": [
+      8.329785406589508,
+      12.09006161689758
+    ],
+    "mean_length": 112.90625,
+    "eos_fraction": 0.40625,
+    "repetition_3gram": 0.0025603433821982553
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_002300",
+    "fingerprint": {
+      "generation_sha": "eb11e241a4861e51776bd6d6581d871a05d01eb81c09a32c03fbb8a63b56d13e",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989123716950417,
+    "kl": 9.592479705810547,
+    "reward_ci95": [
+      0.9988938770256937,
+      0.9989247454795986
+    ],
+    "kl_ci95": [
+      8.047325110435485,
+      11.069741606712341
+    ],
+    "mean_length": 109.40625,
+    "eos_fraction": 0.40625,
+    "repetition_3gram": 0.005684411462420352
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "curve_002344",
+    "fingerprint": {
+      "generation_sha": "20fcb235f799a69d25b1f288b4388694ab1216998c5134b29a84834fa4465779",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989093132317066,
+    "kl": 10.288632869720459,
+    "reward_ci95": [
+      0.9988914924673736,
+      0.9989221788942814
+    ],
+    "kl_ci95": [
+      8.666024792194367,
+      11.91091899871826
+    ],
+    "mean_length": 113.90625,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.0036082411404077495
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "dev",
+    "fingerprint": {
+      "generation_sha": "68ee6e5193dd7f2a79785c81489cb6ce394caa4da3a71bdb7b7b9e00add48fa4",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 500,
+    "generations": 500,
+    "reward": 0.9986159746646881,
+    "kl": 10.677009674072266,
+    "reward_ci95": [
+      0.9980838032484054,
+      0.9988934622585773
+    ],
+    "kl_ci95": [
+      10.26836326522827,
+      11.068851097106934
+    ],
+    "mean_length": 117.142,
+    "eos_fraction": 0.35,
+    "repetition_3gram": 0.002639627419730998
+  },
+  {
+    "run": "dpo_b0.1_s42",
+    "evaluation": "test",
+    "fingerprint": {
+      "generation_sha": "a33f939ec3ce0b684992115194b82043bb8234b24cf729b4667fcecf0124f281",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 1000,
+    "generations": 4000,
+    "reward": 0.9938910885405058,
+    "kl": 10.686453279733659,
+    "reward_ci95": [
+      0.9909287229213125,
+      0.9963981438393021
+    ],
+    "kl_ci95": [
+      10.5122033028543,
+      10.861323530912399
+    ],
+    "mean_length": 115.4505,
+    "eos_fraction": 0.3825,
+    "repetition_3gram": 0.002320483856483667
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_000100",
+    "fingerprint": {
+      "generation_sha": "d3b8318531581978d1aaa1031c5ab058fe16123480b99fa6f6ff8145b4d97e76",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6881231072839,
+    "kl": 0.9985685348510742,
+    "reward_ci95": [
+      0.5324711402047797,
+      0.8429600644342827
+    ],
+    "kl_ci95": [
+      0.6044407606124877,
+      1.4039689421653745
+    ],
+    "mean_length": 113.1875,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0003094059405940597
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_000200",
+    "fingerprint": {
+      "generation_sha": "e1464f4aa479bd0c28b664612de930ed9e3bc6f452ee1556cca1314d92aa55d3",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9984334036707878,
+    "kl": 3.2738261222839355,
+    "reward_ci95": [
+      0.9979513764381409,
+      0.9987869409378618
+    ],
+    "kl_ci95": [
+      2.386406493186951,
+      4.28010938167572
+    ],
+    "mean_length": 121.0,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.000966048720549225
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_000300",
+    "fingerprint": {
+      "generation_sha": "0aa6fa847ce8ca04f68900914fc67ba7dea33bee8a43e16ea518eb75a5b8c497",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9365107064531912,
+    "kl": 5.73012375831604,
+    "reward_ci95": [
+      0.8429794531675725,
+      0.9988886276260018
+    ],
+    "kl_ci95": [
+      4.587145972251892,
+      6.857780170440673
+    ],
+    "mean_length": 121.1875,
+    "eos_fraction": 0.15625,
+    "repetition_3gram": 0.0018408775222990559
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_000400",
+    "fingerprint": {
+      "generation_sha": "89eb48c342f6e11148499832206d4fe9b5caa518aac6644cfde40b186921e796",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9676786241088848,
+    "kl": 6.793185234069824,
+    "reward_ci95": [
+      0.9052823877795163,
+      0.998889209749177
+    ],
+    "kl_ci95": [
+      5.36585031747818,
+      8.27812613248825
+    ],
+    "mean_length": 118.5625,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0019181447392852928
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_000500",
+    "fingerprint": {
+      "generation_sha": "4795387803a4f183a87c5faabc14ff4acabe14abf59d9e1f877da09a89103297",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9988521281629801,
+    "kl": 7.672176361083984,
+    "reward_ci95": [
+      0.9987681461498141,
+      0.9989029434509575
+    ],
+    "kl_ci95": [
+      6.2324417471885685,
+      9.16537251472473
+    ],
+    "mean_length": 114.71875,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.004169144268934187
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_000600",
+    "fingerprint": {
+      "generation_sha": "81b7c1532c1a21810b69d2444334ea4dc55a2243a54f261710fd1617e7b0477c",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9679376787389629,
+    "kl": 8.30833625793457,
+    "reward_ci95": [
+      0.9060002564569004,
+      0.9989122041966766
+    ],
+    "kl_ci95": [
+      6.892213916778564,
+      9.815569853782653
+    ],
+    "mean_length": 123.4375,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0036187702831769926
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_000700",
+    "fingerprint": {
+      "generation_sha": "0d450d69bf3d55ef6aa0e67b437fc1533acec8205eae9514a74f1101f06edd48",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9988984931260347,
+    "kl": 8.375353336334229,
+    "reward_ci95": [
+      0.9988683835603297,
+      0.9989166856743396
+    ],
+    "kl_ci95": [
+      6.958573293685913,
+      9.903281235694882
+    ],
+    "mean_length": 121.5,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0028869745794418665
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_000800",
+    "fingerprint": {
+      "generation_sha": "2e766fdec958e70c18c7098899090b38d4d4f331ea99548c8c857ed9dad55e77",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989025890827179,
+    "kl": 8.53718614578247,
+    "reward_ci95": [
+      0.9988717160653323,
+      0.9989215405657887
+    ],
+    "kl_ci95": [
+      7.001201629638672,
+      10.11316865682602
+    ],
+    "mean_length": 116.8125,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.002669782051442131
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_000900",
+    "fingerprint": {
+      "generation_sha": "a40ec04cee90c1b389c259a655515b2b48e6ba1c69019461d85d866875146792",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989202599972486,
+    "kl": 9.303267478942871,
+    "reward_ci95": [
+      0.9989140049554408,
+      0.9989260382484645
+    ],
+    "kl_ci95": [
+      7.9341850757598875,
+      10.557687425613402
+    ],
+    "mean_length": 116.9375,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.001506310798346195
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_001000",
+    "fingerprint": {
+      "generation_sha": "cffc633179626117988f73305fd07092e408fa91c1d3b531791a1d6f9e5623fb",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989146236330271,
+    "kl": 8.772499561309814,
+    "reward_ci95": [
+      0.9989049542695284,
+      0.9989225442521275
+    ],
+    "kl_ci95": [
+      7.610472369194031,
+      10.011408114433287
+    ],
+    "mean_length": 121.375,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.002032887386346126
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_001100",
+    "fingerprint": {
+      "generation_sha": "f9c142c8c9da70075143beeb728333a18aa86927b844bb456103cb30416d1cca",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989086240530014,
+    "kl": 10.040241718292236,
+    "reward_ci95": [
+      0.9988922695163638,
+      0.9989209187682718
+    ],
+    "kl_ci95": [
+      8.666921293735504,
+      11.458982694149016
+    ],
+    "mean_length": 121.9375,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.003937421950656682
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_001200",
+    "fingerprint": {
+      "generation_sha": "088cf8f0dd2b31b301a9f6ebd26766272b19dfb2fceba3971e9fcc56513267d1",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9988985992968082,
+    "kl": 9.379055976867676,
+    "reward_ci95": [
+      0.9988692293409258,
+      0.9989182373508811
+    ],
+    "kl_ci95": [
+      7.89873058795929,
+      11.098447108268736
+    ],
+    "mean_length": 124.75,
+    "eos_fraction": 0.15625,
+    "repetition_3gram": 0.004175047490032641
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_001300",
+    "fingerprint": {
+      "generation_sha": "348af2a6682b68497936e03f375d777c7a9935fe83ae768cdc657fccf6d1bf46",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.998914422467351,
+    "kl": 9.640020370483398,
+    "reward_ci95": [
+      0.998902945779264,
+      0.9989223452284932
+    ],
+    "kl_ci95": [
+      8.515364909172058,
+      10.842707753181458
+    ],
+    "mean_length": 120.8125,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.004174693714121665
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_001400",
+    "fingerprint": {
+      "generation_sha": "85a22f94dacb82ae49efa1b032953e3f8bcd66da6233046a29f79079bc66e3e6",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989087283611298,
+    "kl": 9.020221710205078,
+    "reward_ci95": [
+      0.9988909204490483,
+      0.9989222505595535
+    ],
+    "kl_ci95": [
+      7.787481594085693,
+      10.476094126701353
+    ],
+    "mean_length": 124.375,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.006575719208472306
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_001500",
+    "fingerprint": {
+      "generation_sha": "baf72a8d3a42a72832a0a0dd64a4da60d51b8b83a49348f2080b51f180c79ed9",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989160057157278,
+    "kl": 10.217198848724365,
+    "reward_ci95": [
+      0.9989041349384934,
+      0.998925166670233
+    ],
+    "kl_ci95": [
+      8.736529326438903,
+      11.867147934436797
+    ],
+    "mean_length": 117.375,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0024281499129233004
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_001600",
+    "fingerprint": {
+      "generation_sha": "29e228b7459c5850db61936892e5193828df113e4e79b784d8f6fffa008400de",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.998891269788146,
+    "kl": 8.675763130187988,
+    "reward_ci95": [
+      0.9988472898025066,
+      0.9989168690983206
+    ],
+    "kl_ci95": [
+      7.378192067146301,
+      10.070649862289429
+    ],
+    "mean_length": 115.1875,
+    "eos_fraction": 0.4375,
+    "repetition_3gram": 0.004685230736854267
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_001700",
+    "fingerprint": {
+      "generation_sha": "040a3416b9b2e2f2187023b3de0a1e5fbcdbc52dc18d4523d4b99432e25a6b8e",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989056661725044,
+    "kl": 10.141231536865234,
+    "reward_ci95": [
+      0.9988932911306619,
+      0.9989160227123648
+    ],
+    "kl_ci95": [
+      8.449453854560852,
+      12.099774158000946
+    ],
+    "mean_length": 109.90625,
+    "eos_fraction": 0.5,
+    "repetition_3gram": 0.0028151722680719894
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_001800",
+    "fingerprint": {
+      "generation_sha": "ed1d011ca84658ad29109e8f161c10802caf8a718fbc28a3f395aa5cba709641",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989138748496771,
+    "kl": 11.653514623641968,
+    "reward_ci95": [
+      0.998904334101826,
+      0.9989222358446568
+    ],
+    "kl_ci95": [
+      9.742771846055984,
+      13.702383732795715
+    ],
+    "mean_length": 115.8125,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.0023126896969342912
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_001900",
+    "fingerprint": {
+      "generation_sha": "2a7ca47df24abe77f41c7b07d4f300145d5ef1799a4f6a23521bbd818dae20bc",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989087488502264,
+    "kl": 10.224384784698486,
+    "reward_ci95": [
+      0.9988958308938891,
+      0.9989194991532713
+    ],
+    "kl_ci95": [
+      8.711150681972503,
+      11.815630745887754
+    ],
+    "mean_length": 118.9375,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0025732201093961217
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_002000",
+    "fingerprint": {
+      "generation_sha": "36cc665e05ed04dd8b1b8a84c58aa4033d79518c6015ba091115f6840f68eec7",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989111293107271,
+    "kl": 10.33428692817688,
+    "reward_ci95": [
+      0.9988997871521861,
+      0.9989205716643482
+    ],
+    "kl_ci95": [
+      8.777076494693755,
+      12.19732419848442
+    ],
+    "mean_length": 118.125,
+    "eos_fraction": 0.375,
+    "repetition_3gram": 0.0031434983385914966
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_002100",
+    "fingerprint": {
+      "generation_sha": "a61b4725d9296c003938d3b34aebcd0f7fecdfc9a3de38efa3de2e6a82fa54b6",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989125821739435,
+    "kl": 10.541505217552185,
+    "reward_ci95": [
+      0.9988999957684428,
+      0.9989227690733969
+    ],
+    "kl_ci95": [
+      8.659627711772918,
+      12.645466274023056
+    ],
+    "mean_length": 112.03125,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.0024044594564978823
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_002200",
+    "fingerprint": {
+      "generation_sha": "70dc841bddfc194234e10327ed91869996fd9e072fe783cc2a3d8e0c61b09fa9",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989198464900255,
+    "kl": 9.248941659927368,
+    "reward_ci95": [
+      0.9989126345142723,
+      0.9989264633040875
+    ],
+    "kl_ci95": [
+      7.848856490850449,
+      10.767917108535766
+    ],
+    "mean_length": 106.34375,
+    "eos_fraction": 0.5625,
+    "repetition_3gram": 0.0025384958943348024
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_002300",
+    "fingerprint": {
+      "generation_sha": "15903e7c7f08ea1c023c86548290135d6800328b803d04a4a87a123babcc231d",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989174604415894,
+    "kl": 10.668715238571167,
+    "reward_ci95": [
+      0.9989049182739109,
+      0.998927072994411
+    ],
+    "kl_ci95": [
+      8.945099020004273,
+      12.571954196691511
+    ],
+    "mean_length": 106.96875,
+    "eos_fraction": 0.46875,
+    "repetition_3gram": 0.0017125872258066874
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "curve_002344",
+    "fingerprint": {
+      "generation_sha": "341fcef72dc1b7a0926d8fe3dc417d4bc2c0b369dead6764a6e1b751e08b1e11",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989110603928566,
+    "kl": 10.96308422088623,
+    "reward_ci95": [
+      0.9988995794206857,
+      0.9989213130436838
+    ],
+    "kl_ci95": [
+      9.592002546787262,
+      12.373520350456237
+    ],
+    "mean_length": 104.40625,
+    "eos_fraction": 0.53125,
+    "repetition_3gram": 0.002931769111724984
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "dev",
+    "fingerprint": {
+      "generation_sha": "8108a72ef0c6905153e1e83675194f4807d5f888c2675d535e17e0d565375732",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 500,
+    "generations": 500,
+    "reward": 0.9929180514421314,
+    "kl": 10.538624618530273,
+    "reward_ci95": [
+      0.9850678862475325,
+      0.9988396212369204
+    ],
+    "kl_ci95": [
+      10.139154928207397,
+      10.936284941482542
+    ],
+    "mean_length": 110.338,
+    "eos_fraction": 0.472,
+    "repetition_3gram": 0.004631703052625536
+  },
+  {
+    "run": "dpo_b0.1_s43",
+    "evaluation": "test",
+    "fingerprint": {
+      "generation_sha": "5459b538d2d0722cd8b9a135617adfb8185167a5c04be7e49b5bcf3ae8738767",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 1000,
+    "generations": 4000,
+    "reward": 0.9944619195407577,
+    "kl": 10.426865619421005,
+    "reward_ci95": [
+      0.9914320672008791,
+      0.9968889886193312
+    ],
+    "kl_ci95": [
+      10.247488621360063,
+      10.602741659522056
+    ],
+    "mean_length": 109.962,
+    "eos_fraction": 0.5105,
+    "repetition_3gram": 0.002436643448975577
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_000100",
+    "fingerprint": {
+      "generation_sha": "46721965b81bbf305b767087fa965c4dd57a51101cfbfa803bcfd95ab88129ed",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7499279726944224,
+    "kl": 0.9971728324890137,
+    "reward_ci95": [
+      0.5942803795055169,
+      0.8749752136074676
+    ],
+    "kl_ci95": [
+      0.5374166131019592,
+      1.4321714282035825
+    ],
+    "mean_length": 114.75,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.002061031939772303
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_000200",
+    "fingerprint": {
+      "generation_sha": "430d9aac2aea730628b325a7798099ba1720458a3fe187eda77bcf5c6f8635c0",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9054488796646183,
+    "kl": 4.178533554077148,
+    "reward_ci95": [
+      0.7814176102541751,
+      0.9986502029467375
+    ],
+    "kl_ci95": [
+      3.366873931884766,
+      5.162264513969421
+    ],
+    "mean_length": 118.875,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0017306067922023237
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_000300",
+    "fingerprint": {
+      "generation_sha": "40462ce92628b52472d31e5803ce92eb090e8283e3fbb1a0d4e5d128ebc2d57e",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9976204298436642,
+    "kl": 7.048900604248047,
+    "reward_ci95": [
+      0.99522351808846,
+      0.9988727633375675
+    ],
+    "kl_ci95": [
+      5.973444247245789,
+      8.123616123199463
+    ],
+    "mean_length": 112.9375,
+    "eos_fraction": 0.375,
+    "repetition_3gram": 0.002913756147529603
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_000400",
+    "fingerprint": {
+      "generation_sha": "a04aef767514148e487b68c6bdb7e5b6f9a25b8ba3b3b5920667817de2bb1626",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9988465886563063,
+    "kl": 7.27519416809082,
+    "reward_ci95": [
+      0.9987646918278188,
+      0.9988989398814738
+    ],
+    "kl_ci95": [
+      6.009665417671203,
+      8.619079387187957
+    ],
+    "mean_length": 120.8125,
+    "eos_fraction": 0.15625,
+    "repetition_3gram": 0.0003156565656565642
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_000500",
+    "fingerprint": {
+      "generation_sha": "2c4c42dca768f55565526b136bcb7382fe3e2780a00f5f6eaeb5e241cccadb77",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989005550742149,
+    "kl": 7.892025947570801,
+    "reward_ci95": [
+      0.998889770032838,
+      0.9989106138702482
+    ],
+    "kl_ci95": [
+      6.456767654418945,
+      9.342533111572264
+    ],
+    "mean_length": 123.75,
+    "eos_fraction": 0.125,
+    "repetition_3gram": 0.0033459053195472634
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_000600",
+    "fingerprint": {
+      "generation_sha": "7acfcc158941ec8f01ca1cb3ab68d3f59e4108edfacd4e8689aceb4c4f4bb49c",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9988701418042183,
+    "kl": 8.585780620574951,
+    "reward_ci95": [
+      0.9988414428196848,
+      0.998894345620647
+    ],
+    "kl_ci95": [
+      7.000243270397187,
+      10.298800981044769
+    ],
+    "mean_length": 121.84375,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0026245495867171856
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_000700",
+    "fingerprint": {
+      "generation_sha": "cc54b5a24d4a4073f6a48017b65c7c94c279ec793e12bf45dcf814774307362f",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989029746502638,
+    "kl": 8.871026039123535,
+    "reward_ci95": [
+      0.9988914217799902,
+      0.9989138669800013
+    ],
+    "kl_ci95": [
+      7.224821019172668,
+      10.646095514297485
+    ],
+    "mean_length": 116.1875,
+    "eos_fraction": 0.40625,
+    "repetition_3gram": 0.0015654797129187187
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_000800",
+    "fingerprint": {
+      "generation_sha": "54433834bb89164e949782638bb93cfad31446423487655e827bf6fd3575fce0",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989150073379278,
+    "kl": 8.98645305633545,
+    "reward_ci95": [
+      0.9989063179586083,
+      0.9989222537726163
+    ],
+    "kl_ci95": [
+      7.643321990966797,
+      10.400210785865783
+    ],
+    "mean_length": 123.90625,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.003247818246403661
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_000900",
+    "fingerprint": {
+      "generation_sha": "42df843694c4b87b45c2af0a53ccc62c8509bf75a485e65eddf21239a481fe11",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.998911589384079,
+    "kl": 9.86719036102295,
+    "reward_ci95": [
+      0.9989009270444512,
+      0.9989209640771151
+    ],
+    "kl_ci95": [
+      8.579135322570801,
+      11.241446661949157
+    ],
+    "mean_length": 126.28125,
+    "eos_fraction": 0.09375,
+    "repetition_3gram": 0.003302986278929613
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_001000",
+    "fingerprint": {
+      "generation_sha": "8060edf8c83c4fe1663c6ce57fa7ca762c47714ff72d6512cedb67446e207c21",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.998914610594511,
+    "kl": 9.564691543579102,
+    "reward_ci95": [
+      0.9989032872486859,
+      0.9989236189518124
+    ],
+    "kl_ci95": [
+      8.12400425672531,
+      11.025091707706451
+    ],
+    "mean_length": 117.34375,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.00414943713421647
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_001100",
+    "fingerprint": {
+      "generation_sha": "1a642a32f109570e4c2d856997951e06b496cf202ecb4763366311be39031593",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.998853487893939,
+    "kl": 9.584590196609497,
+    "reward_ci95": [
+      0.998741104779765,
+      0.9989170395303517
+    ],
+    "kl_ci95": [
+      8.222838741540908,
+      11.048621129989623
+    ],
+    "mean_length": 121.53125,
+    "eos_fraction": 0.125,
+    "repetition_3gram": 0.003774632952557009
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_001200",
+    "fingerprint": {
+      "generation_sha": "52076120412c585ab2868c9e67abfb2eda78760079ebe620922aa519fa80975f",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989072717726231,
+    "kl": 9.073163032531738,
+    "reward_ci95": [
+      0.9988922846969217,
+      0.9989182313438505
+    ],
+    "kl_ci95": [
+      7.65767548084259,
+      10.478398251533509
+    ],
+    "mean_length": 127.15625,
+    "eos_fraction": 0.03125,
+    "repetition_3gram": 0.001203896145605364
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_001300",
+    "fingerprint": {
+      "generation_sha": "4bfe36de706f7fabee9988abb65824981156fa10c4b0861996181c2c0f40eb4a",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9988678321242332,
+    "kl": 10.241296768188477,
+    "reward_ci95": [
+      0.998785229306668,
+      0.9989165909588337
+    ],
+    "kl_ci95": [
+      8.92813332080841,
+      11.564074826240539
+    ],
+    "mean_length": 121.375,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0024641972198616822
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_001400",
+    "fingerprint": {
+      "generation_sha": "3a01c95ef93ed1e770558998a01bff64b973cf932965649a547becfbe318b6af",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9988987017422915,
+    "kl": 9.36063814163208,
+    "reward_ci95": [
+      0.9988678890746087,
+      0.9989182625897228
+    ],
+    "kl_ci95": [
+      8.090700960159301,
+      10.75037853717804
+    ],
+    "mean_length": 121.125,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0018469026767647528
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_001500",
+    "fingerprint": {
+      "generation_sha": "e62553dbfb17cab1ce6e560fe41953ff184cb4ed2fc594cefa71488eae339d15",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989111497998238,
+    "kl": 10.144610404968262,
+    "reward_ci95": [
+      0.9988988673780114,
+      0.998921271506697
+    ],
+    "kl_ci95": [
+      8.875919485092163,
+      11.49641990661621
+    ],
+    "mean_length": 124.34375,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0028667003381288234
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_001600",
+    "fingerprint": {
+      "generation_sha": "4d748fea20b2ef8b343058c880d47efeb378d412f4163f04452fc5d707f68bc8",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989093691110611,
+    "kl": 9.634159088134766,
+    "reward_ci95": [
+      0.9988955685868859,
+      0.9989202908240259
+    ],
+    "kl_ci95": [
+      8.25243012905121,
+      11.05897673368454
+    ],
+    "mean_length": 120.5,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.002199911407032018
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_001700",
+    "fingerprint": {
+      "generation_sha": "8e6865b36fcb223dd0855dab12e39728deca82d06cd7de6daed276c91ba74f46",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989136513322592,
+    "kl": 9.815080642700195,
+    "reward_ci95": [
+      0.9988997758366167,
+      0.9989244791679084
+    ],
+    "kl_ci95": [
+      8.510790503025055,
+      11.066351044178008
+    ],
+    "mean_length": 113.8125,
+    "eos_fraction": 0.375,
+    "repetition_3gram": 0.001513060714654825
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_001800",
+    "fingerprint": {
+      "generation_sha": "8c2b17eb4a9ae52876f20658b6320cd02affa834a9eaf973bb9e022e23a0b15a",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.99891572073102,
+    "kl": 10.104879379272461,
+    "reward_ci95": [
+      0.9989071461372078,
+      0.9989230418112129
+    ],
+    "kl_ci95": [
+      8.929471111297607,
+      11.256884217262266
+    ],
+    "mean_length": 119.09375,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.003917755007062693
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_001900",
+    "fingerprint": {
+      "generation_sha": "2de1394ea5bb509cd89a7451a5d0d58bdba0cc0c871ceb7ad3989e7464d926d1",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9988989196717739,
+    "kl": 9.463703155517578,
+    "reward_ci95": [
+      0.9988675994798542,
+      0.9989209791645408
+    ],
+    "kl_ci95": [
+      7.9987589597702025,
+      10.912554013729094
+    ],
+    "mean_length": 113.625,
+    "eos_fraction": 0.375,
+    "repetition_3gram": 0.0014305924918053062
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_002000",
+    "fingerprint": {
+      "generation_sha": "c781b89aaa3668c5b93ab32584d8dc8c9a3acbd95dfb6421b903c24bd8869bf4",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989027380943298,
+    "kl": 10.101184368133545,
+    "reward_ci95": [
+      0.9988750737626105,
+      0.9989221081603319
+    ],
+    "kl_ci95": [
+      8.61887992620468,
+      11.663596856594085
+    ],
+    "mean_length": 111.21875,
+    "eos_fraction": 0.4375,
+    "repetition_3gram": 0.0012172527933812724
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_002100",
+    "fingerprint": {
+      "generation_sha": "11c13448d830334eff9ad07df8889c32eabfc733738c0dcb4477b7eae9342a90",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989125188440084,
+    "kl": 10.763468265533447,
+    "reward_ci95": [
+      0.9988926535937935,
+      0.9989246672950685
+    ],
+    "kl_ci95": [
+      9.124047243595124,
+      12.38599464893341
+    ],
+    "mean_length": 109.96875,
+    "eos_fraction": 0.53125,
+    "repetition_3gram": 0.001999899129266288
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_002200",
+    "fingerprint": {
+      "generation_sha": "fa04cfc0818fe6726e22da74b5293b2d28228ce7895d9a3acff8def5e026a96b",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989141803234816,
+    "kl": 12.43966817855835,
+    "reward_ci95": [
+      0.998899384913966,
+      0.9989246049430222
+    ],
+    "kl_ci95": [
+      10.821439504623413,
+      14.040034067630767
+    ],
+    "mean_length": 116.40625,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.002016983862713626
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_002300",
+    "fingerprint": {
+      "generation_sha": "07341b6f3563029b772c850e7215810bb76d27fe23403e53c89d3d7d3c96dc4c",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9989051315933466,
+    "kl": 9.598997831344604,
+    "reward_ci95": [
+      0.9988825188949704,
+      0.9989227452781051
+    ],
+    "kl_ci95": [
+      8.1467935860157,
+      11.060839796066281
+    ],
+    "mean_length": 103.375,
+    "eos_fraction": 0.53125,
+    "repetition_3gram": 0.0027593384932148197
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "curve_002344",
+    "fingerprint": {
+      "generation_sha": "6e9c1e591532bbd206cc584c28c6d79902c7b384068ef690155b5bc709e5b2b6",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.998898820951581,
+    "kl": 10.255584001541138,
+    "reward_ci95": [
+      0.9988726316019892,
+      0.9989179212134331
+    ],
+    "kl_ci95": [
+      8.603252547979356,
+      11.888629436492918
+    ],
+    "mean_length": 102.59375,
+    "eos_fraction": 0.5,
+    "repetition_3gram": 0.002065999113017459
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "dev",
+    "fingerprint": {
+      "generation_sha": "7cbf5d7f3e50b45e04d4059b069a0c74ed830df4cba22bb9dde7a81b6c7fe1f2",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 500,
+    "generations": 500,
+    "reward": 0.9927675763944862,
+    "kl": 10.472091217041015,
+    "reward_ci95": [
+      0.9848983178323134,
+      0.9987510610342025
+    ],
+    "kl_ci95": [
+      10.087359951400757,
+      10.867428132629394
+    ],
+    "mean_length": 109.164,
+    "eos_fraction": 0.504,
+    "repetition_3gram": 0.0025195151649085234
+  },
+  {
+    "run": "dpo_b0.1_s44",
+    "evaluation": "test",
+    "fingerprint": {
+      "generation_sha": "ca83d15a24c85c91a7b931fa6c702aad3e8922e30db346fc2488a7c3c8f036f0",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 1000,
+    "generations": 4000,
+    "reward": 0.9936886474978237,
+    "kl": 10.400283929347992,
+    "reward_ci95": [
+      0.9904447121976234,
+      0.9964756970987709
+    ],
+    "kl_ci95": [
+      10.232315863609314,
+      10.564388470184802
+    ],
+    "mean_length": 109.00375,
+    "eos_fraction": 0.5215,
+    "repetition_3gram": 0.0024377511232037082
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_000100",
+    "fingerprint": {
+      "generation_sha": "0547b433fd88a456c2e408fdc4ced8b3c40ec112fff02120972a7882d276ad6b",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.655093230951934,
+    "kl": 0.42400312423706055,
+    "reward_ci95": [
+      0.49853915790488373,
+      0.8109418611997171
+    ],
+    "kl_ci95": [
+      0.21889200210571289,
+      0.6187654137611388
+    ],
+    "mean_length": 117.53125,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0014414500509684
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_000200",
+    "fingerprint": {
+      "generation_sha": "847ee7cb043c30d4b36a63b8c48fa54e19522911abe8ffeec751b1822bcc7b57",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7179663197912305,
+    "kl": 0.4474053382873535,
+    "reward_ci95": [
+      0.5620163044839955,
+      0.8736661563340476
+    ],
+    "kl_ci95": [
+      0.19051656723022461,
+      0.7069471120834345
+    ],
+    "mean_length": 112.875,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0008855231281701854
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_000300",
+    "fingerprint": {
+      "generation_sha": "0a0cafb858d939969283593fb9c19bed9c1d3affa9de59b227bcd8a0bee2d9d4",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7652960445993813,
+    "kl": 0.7672626972198486,
+    "reward_ci95": [
+      0.6250684586297666,
+      0.9052099072368491
+    ],
+    "kl_ci95": [
+      0.48889299631118777,
+      1.0658850610256192
+    ],
+    "mean_length": 111.59375,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0009193142040317091
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_000400",
+    "fingerprint": {
+      "generation_sha": "4ac2279bb83dd6ae5f9e9f7a31417c0aff86b2b82de17d0573395c2e8255dab4",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7809985925832734,
+    "kl": 0.7614250183105469,
+    "reward_ci95": [
+      0.6255021647021295,
+      0.9054551738328882
+    ],
+    "kl_ci95": [
+      0.4015071153640747,
+      1.1165317535400388
+    ],
+    "mean_length": 118.34375,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0029764136508470436
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_000500",
+    "fingerprint": {
+      "generation_sha": "97114feb3d20559143ca86ca113f154d7c3f3de78474feb7310e1cb79308911e",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7807805626252957,
+    "kl": 1.018336296081543,
+    "reward_ci95": [
+      0.6253505816582674,
+      0.9053742036229323
+    ],
+    "kl_ci95": [
+      0.6134410500526428,
+      1.4646603465080261
+    ],
+    "mean_length": 111.75,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0006188118811881194
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_000600",
+    "fingerprint": {
+      "generation_sha": "68a0a38c4cef0b3ae43ce9119eb93db36d99c6e2e50a9f8ad7b4774316b15cfd",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8390559157669486,
+    "kl": 1.0439629554748535,
+    "reward_ci95": [
+      0.7144345633168087,
+      0.9602020325666671
+    ],
+    "kl_ci95": [
+      0.7207266569137574,
+      1.3907261252403254
+    ],
+    "mean_length": 108.78125,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_000700",
+    "fingerprint": {
+      "generation_sha": "f41855ac459edd459f93f0ab841be5c06752a16974fbe97ff5e997bb4bfa966e",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8083867329187342,
+    "kl": 1.0806760787963867,
+    "reward_ci95": [
+      0.6596798658369153,
+      0.9353977410350125
+    ],
+    "kl_ci95": [
+      0.6833922743797303,
+      1.4625748872756956
+    ],
+    "mean_length": 112.78125,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0012853555379328564
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_000800",
+    "fingerprint": {
+      "generation_sha": "5f42c492eb5a766a89ba253a902f9e85c6d2c78fe86dc8c75cf76712915fb628",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8740824805972807,
+    "kl": 1.0965383052825928,
+    "reward_ci95": [
+      0.7495804755224527,
+      0.9674495869351631
+    ],
+    "kl_ci95": [
+      0.6162616372108459,
+      1.605967533588409
+    ],
+    "mean_length": 120.34375,
+    "eos_fraction": 0.15625,
+    "repetition_3gram": 0.0013484566607273839
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_000900",
+    "fingerprint": {
+      "generation_sha": "c8ab2ea8dfbec60fce1aa990f5abb9be6dface716e35bf5c892bdc9fa64fba17",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9050447294212063,
+    "kl": 1.1382722854614258,
+    "reward_ci95": [
+      0.7806391564952719,
+      0.9983739905059338
+    ],
+    "kl_ci95": [
+      0.7254996538162232,
+      1.5700069904327385
+    ],
+    "mean_length": 117.9375,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0026762855679906376
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_001000",
+    "fingerprint": {
+      "generation_sha": "094471d56569386f2fce4f7de1108c0a9145a4ef5d6739271d2c75bb88376e14",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8426143567776307,
+    "kl": 1.1831717491149902,
+    "reward_ci95": [
+      0.7176714755322792,
+      0.9666203093009245
+    ],
+    "kl_ci95": [
+      0.7509205937385559,
+      1.6108879089355466
+    ],
+    "mean_length": 114.5,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.001935647521683119
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_001100",
+    "fingerprint": {
+      "generation_sha": "e5bfddc2c56e5913f85512a86d21eb97f90ca909d92ca87a6b766d0fd30119c5",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8742336207087646,
+    "kl": 1.020402431488037,
+    "reward_ci95": [
+      0.7501408539163095,
+      0.967313007583698
+    ],
+    "kl_ci95": [
+      0.4889750599861145,
+      1.5492701411247252
+    ],
+    "mean_length": 113.15625,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_001200",
+    "fingerprint": {
+      "generation_sha": "436be15beae858ba48e39f0e90e9012c6c2a1270afcdee31b99a3c4c7571fb65",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9043724538641982,
+    "kl": 1.483079433441162,
+    "reward_ci95": [
+      0.7801518120573746,
+      0.9974489671643824
+    ],
+    "kl_ci95": [
+      0.9360243916511536,
+      2.0725767254829397
+    ],
+    "mean_length": 115.9375,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0024714771665743165
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_001300",
+    "fingerprint": {
+      "generation_sha": "8632f7bba36bb619d823c9eff3fdbb9047a876d8958bcc52f127e9c4377d33fc",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8738883747791988,
+    "kl": 1.3278326988220215,
+    "reward_ci95": [
+      0.7493512257761722,
+      0.9675289974493353
+    ],
+    "kl_ci95": [
+      0.8492496252059937,
+      1.8283575534820553
+    ],
+    "mean_length": 114.84375,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0026002307625948955
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_001400",
+    "fingerprint": {
+      "generation_sha": "752de87cdbf8a42b8441141c4d8dc07e88f7b34dbfcf94490e46f0c4f4538565",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9615893663376482,
+    "kl": 1.3435654640197754,
+    "reward_ci95": [
+      0.8939750693283713,
+      0.9980016746558249
+    ],
+    "kl_ci95": [
+      0.9068233728408813,
+      1.7551033258438107
+    ],
+    "mean_length": 116.65625,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.000347222222222221
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_001500",
+    "fingerprint": {
+      "generation_sha": "09fdd2b830acbed08e0fcdb80024d6611a9b1758d4067d62abfb8b0d6ec7a198",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9058477691432927,
+    "kl": 1.6931581497192383,
+    "reward_ci95": [
+      0.7825709887532867,
+      0.9985024323221297
+    ],
+    "kl_ci95": [
+      1.147218656539917,
+      2.2643902301788326
+    ],
+    "mean_length": 117.9375,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.0018391317399008358
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_001600",
+    "fingerprint": {
+      "generation_sha": "057f2b99298ec4a00d2ee675f6053b8d4dd5d534488acde88b2e933ccf1e5234",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9362961230872315,
+    "kl": 1.3437304496765137,
+    "reward_ci95": [
+      0.8430773103667889,
+      0.9985126700252295
+    ],
+    "kl_ci95": [
+      0.8014800786972046,
+      1.9526147246360774
+    ],
+    "mean_length": 114.875,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0017443549201858963
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_001700",
+    "fingerprint": {
+      "generation_sha": "94d15e5efd8d17396fe1432bbbdc27729b3051d69042ef00961845e4042ca3dc",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9004661654835218,
+    "kl": 1.3263235092163086,
+    "reward_ci95": [
+      0.7811110178670788,
+      0.9932101082522422
+    ],
+    "kl_ci95": [
+      0.7626002073287964,
+      1.858851623535156
+    ],
+    "mean_length": 118.03125,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0013340643274853785
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_001800",
+    "fingerprint": {
+      "generation_sha": "8357134a3a720046f56cd91b52a2b822e0b83e508bfd9ee0dab5deefd495aba4",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9308603652407328,
+    "kl": 1.79374361038208,
+    "reward_ci95": [
+      0.8376437379208255,
+      0.9982892867643386
+    ],
+    "kl_ci95": [
+      1.2461965203285217,
+      2.32069227695465
+    ],
+    "mean_length": 111.46875,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.0033148644964621637
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_001900",
+    "fingerprint": {
+      "generation_sha": "21d1a08b583a67ecd8cd80305be90a07abd55d62b16cf957e6e5f3c9c0c0f6a4",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8136593575545703,
+    "kl": 1.247772455215454,
+    "reward_ci95": [
+      0.6884091235977394,
+      0.9367360457654286
+    ],
+    "kl_ci95": [
+      0.6708573162555694,
+      1.844107764959335
+    ],
+    "mean_length": 114.9375,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0009923009944955152
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_002000",
+    "fingerprint": {
+      "generation_sha": "321b1b1ee4cc217f36c699a5d9b05406d79015b4ad789c9760d44f7b3fcfe22f",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9363767087252199,
+    "kl": 1.3058843612670898,
+    "reward_ci95": [
+      0.843105925924192,
+      0.9985907627269626
+    ],
+    "kl_ci95": [
+      0.7027791023254395,
+      1.898464179039001
+    ],
+    "mean_length": 118.03125,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0018942519251925194
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_002100",
+    "fingerprint": {
+      "generation_sha": "7083bb7339d71acce85672dec9ff3b3873a6eef0b6de67419753f84e3b5697b8",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9982236009091139,
+    "kl": 1.6371550559997559,
+    "reward_ci95": [
+      0.9976025500800461,
+      0.9987029931508005
+    ],
+    "kl_ci95": [
+      1.0434199094772338,
+      2.2463495135307308
+    ],
+    "mean_length": 118.09375,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0016434003513044818
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_002200",
+    "fingerprint": {
+      "generation_sha": "6aa8ca29a942ec9d2f3175371d324daed55660e6a038ed49b2aeb1cc704bd81e",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9561259184847586,
+    "kl": 1.350761890411377,
+    "reward_ci95": [
+      0.8836262692813761,
+      0.9982061457820237
+    ],
+    "kl_ci95": [
+      0.7603354215621948,
+      1.9545659065246581
+    ],
+    "mean_length": 121.65625,
+    "eos_fraction": 0.125,
+    "repetition_3gram": 0.0017421937902057927
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_002300",
+    "fingerprint": {
+      "generation_sha": "36ff9dc661929d60b5565b22270e32a7c5140290bd68998ba6a9a62efc58bdd2",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9362446607265156,
+    "kl": 1.7923252582550049,
+    "reward_ci95": [
+      0.8432326728063344,
+      0.99835494030267
+    ],
+    "kl_ci95": [
+      1.2062054216861724,
+      2.4022311866283417
+    ],
+    "mean_length": 118.40625,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.004049069563366231
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "curve_002344",
+    "fingerprint": {
+      "generation_sha": "6290e6a10568eacd1121771c22d01520e2dd02fc842d7070841bbe5b990251bd",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.9356420886397245,
+    "kl": 1.7712934017181396,
+    "reward_ci95": [
+      0.8419682323377856,
+      0.9982867356389761
+    ],
+    "kl_ci95": [
+      1.1061152458190917,
+      2.4832065880298604
+    ],
+    "mean_length": 120.90625,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.006267567951146323
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "dev",
+    "fingerprint": {
+      "generation_sha": "0a325b2cf48c30f190b3c0fed4e3f2d051f6a518c5c4ce68a9bee948a2eb79bb",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 500,
+    "generations": 500,
+    "reward": 0.8665729085573112,
+    "kl": 1.3831376724243165,
+    "reward_ci95": [
+      0.8369149669072548,
+      0.8946714620879866
+    ],
+    "kl_ci95": [
+      1.2396987003326416,
+      1.5334321081161495
+    ],
+    "mean_length": 116.546,
+    "eos_fraction": 0.272,
+    "repetition_3gram": 0.0022479195877856024
+  },
+  {
+    "run": "dpo_b1_s42",
+    "evaluation": "test",
+    "fingerprint": {
+      "generation_sha": "c5540000a79aea37f3cd20dba80676ebe1b3bc5793d9594aa177de955700337d",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 1000,
+    "generations": 4000,
+    "reward": 0.8802757462871086,
+    "kl": 1.4877644081115722,
+    "reward_ci95": [
+      0.8672082510657965,
+      0.8923313411427127
+    ],
+    "kl_ci95": [
+      1.4323502559423447,
+      1.5458872973561286
+    ],
+    "mean_length": 118.4445,
+    "eos_fraction": 0.2395,
+    "repetition_3gram": 0.0026337831405194405
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_000100",
+    "fingerprint": {
+      "generation_sha": "e502dfd953910f41a45a8cdc3fba47a0ec1dd422018a38a223748154b41b5efc",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7479292057323619,
+    "kl": 0.0979611873626709,
+    "reward_ci95": [
+      0.592203780298928,
+      0.873875759584962
+    ],
+    "kl_ci95": [
+      0.01564165949821472,
+      0.17853423953056327
+    ],
+    "mean_length": 114.1875,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0017235180648820202
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_000200",
+    "fingerprint": {
+      "generation_sha": "a0115837dfaec24dfef250c6f324aabb993644fcced49745c2c00389c71d8faf",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6551846676211426,
+    "kl": 0.05003166198730469,
+    "reward_ci95": [
+      0.49861600167400866,
+      0.810944341219033
+    ],
+    "kl_ci95": [
+      -0.0588279664516449,
+      0.15670283436775204
+    ],
+    "mean_length": 115.4375,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.002611500671166604
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_000300",
+    "fingerprint": {
+      "generation_sha": "bf2b2c5160fa81603a3000c8f93e1658ce76e25c8df5a0f5f51eb19459086dad",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.5927925068544937,
+    "kl": 0.10118556022644043,
+    "reward_ci95": [
+      0.436209310120762,
+      0.7495744949910431
+    ],
+    "kl_ci95": [
+      -0.06196510195732116,
+      0.2549000382423401
+    ],
+    "mean_length": 115.125,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.00102779674519176
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_000400",
+    "fingerprint": {
+      "generation_sha": "a9ecac97bb0a20544af76644fa74cbe175694792620ca70e54485c22ae801956",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6242006112806848,
+    "kl": 0.16152429580688477,
+    "reward_ci95": [
+      0.4381486346136626,
+      0.7806655683658846
+    ],
+    "kl_ci95": [
+      -0.009752142429351806,
+      0.33965178728103634
+    ],
+    "mean_length": 119.5625,
+    "eos_fraction": 0.125,
+    "repetition_3gram": 0.001259116317745529
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_000500",
+    "fingerprint": {
+      "generation_sha": "0aed425826be95f1eb0259411bbf58084e06bf355e41b4f74fcd38bbda550a34",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.717946513037532,
+    "kl": 0.13006806373596191,
+    "reward_ci95": [
+      0.5623891075112624,
+      0.8732328286861047
+    ],
+    "kl_ci95": [
+      -0.06371292471885681,
+      0.33590127229690536
+    ],
+    "mean_length": 111.84375,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.00030048076923076816
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_000600",
+    "fingerprint": {
+      "generation_sha": "d5314c7f7c56b843a9ec2368487ed9946eda8de44e29f5cd6382b52ab838bb60",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6557121991154418,
+    "kl": 0.3004343509674072,
+    "reward_ci95": [
+      0.49979806165515583,
+      0.8115781701423203
+    ],
+    "kl_ci95": [
+      0.0706823766231537,
+      0.5353761970996856
+    ],
+    "mean_length": 114.1875,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0006862832383665723
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_000700",
+    "fingerprint": {
+      "generation_sha": "6e6f53055797dc6e7ee5dd4ca8468cbfc9ece9cce70f1451af954d7ba35f76e4",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6237821390423051,
+    "kl": 0.06856846809387207,
+    "reward_ci95": [
+      0.46675920838565615,
+      0.7804550354789626
+    ],
+    "kl_ci95": [
+      -0.156944078207016,
+      0.3045060694217681
+    ],
+    "mean_length": 116.34375,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0016069258196815747
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_000800",
+    "fingerprint": {
+      "generation_sha": "2da4299c5874470e4ddb5f19d3c564ed1538d0fb8c58c87ac81f73b1514a4866",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7464233117225376,
+    "kl": 0.21103143692016602,
+    "reward_ci95": [
+      0.5916781145570894,
+      0.896935939626519
+    ],
+    "kl_ci95": [
+      -0.01070507764816284,
+      0.434803307056427
+    ],
+    "mean_length": 117.125,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0006580375556279189
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_000900",
+    "fingerprint": {
+      "generation_sha": "60c9c442c736682cb78dde7c90014c1bb1ad7bf700cbba10d1d25357ef2f82f7",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7179248932279734,
+    "kl": 0.32187962532043457,
+    "reward_ci95": [
+      0.5619165152809729,
+      0.8736262187100238
+    ],
+    "kl_ci95": [
+      0.008565419912338256,
+      0.6570120751857755
+    ],
+    "mean_length": 113.46875,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0010190217391304358
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_001000",
+    "fingerprint": {
+      "generation_sha": "da7bdb5129478f08c3ff00a78121980a5f78b7fe7f16c95eea892214c46ec166",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.747383657930186,
+    "kl": 0.3270244598388672,
+    "reward_ci95": [
+      0.5902190274475287,
+      0.8932782521240369
+    ],
+    "kl_ci95": [
+      -0.007611036300659179,
+      0.6464155793190002
+    ],
+    "mean_length": 111.28125,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.0
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_001100",
+    "fingerprint": {
+      "generation_sha": "6a8de6ed94dcfb5511374dc9fbcda65bda1a61a3562d2bd1b0da51129298b7f1",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7169466621016909,
+    "kl": 0.5372285842895508,
+    "reward_ci95": [
+      0.5622714486230507,
+      0.8697412086702571
+    ],
+    "kl_ci95": [
+      0.171096134185791,
+      0.8880164146423332
+    ],
+    "mean_length": 115.375,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0003360215053763438
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_001200",
+    "fingerprint": {
+      "generation_sha": "53816ed9db5b1f1595642b154cdc34d2642f87eb5cc5fed8e8fcddd5966ecfa9",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6246212249407108,
+    "kl": 0.39126038551330566,
+    "reward_ci95": [
+      0.4382280291485131,
+      0.780619340518706
+    ],
+    "kl_ci95": [
+      0.04225823879241943,
+      0.7397370278835292
+    ],
+    "mean_length": 116.71875,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0003810975609756101
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_001300",
+    "fingerprint": {
+      "generation_sha": "21a3cb8fb655bd9feb6507191686a5cca3aae454c1ca7ddc834b44b79638d112",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6569058848563145,
+    "kl": 0.548698902130127,
+    "reward_ci95": [
+      0.5000726713691165,
+      0.8127954563182811
+    ],
+    "kl_ci95": [
+      0.31151362657547,
+      0.79828462600708
+    ],
+    "mean_length": 114.25,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0006354626681729474
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_001400",
+    "fingerprint": {
+      "generation_sha": "c8292bce27a07c80b5ad02e3ed28d2c5abb9fe2f22f4a1aab27c309a743ee1fa",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7175956792907527,
+    "kl": 0.678107738494873,
+    "reward_ci95": [
+      0.5622205829894937,
+      0.8721151235537491
+    ],
+    "kl_ci95": [
+      0.3807611107826233,
+      0.9889849781990051
+    ],
+    "mean_length": 118.5625,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0020407732058340573
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_001500",
+    "fingerprint": {
+      "generation_sha": "fdafd5b648948ee6edef4c6a900e3d3300f922722673ed9909cb6b0353dde32c",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8388872856212402,
+    "kl": 0.9511423110961914,
+    "reward_ci95": [
+      0.7105438360857533,
+      0.9602974357032508
+    ],
+    "kl_ci95": [
+      0.48388502597808836,
+      1.3919553637504578
+    ],
+    "mean_length": 114.28125,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0006089954810770092
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_001600",
+    "fingerprint": {
+      "generation_sha": "810a662754bb4a3e1c6fee2d49c9e4f9537dd2ed3e3c1843d078c367481a8ed1",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8115431847436412,
+    "kl": 0.7976429462432861,
+    "reward_ci95": [
+      0.6567055117609926,
+      0.9359795988988481
+    ],
+    "kl_ci95": [
+      0.42093990445137025,
+      1.192256462574005
+    ],
+    "mean_length": 114.1875,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0020019697585740813
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_001700",
+    "fingerprint": {
+      "generation_sha": "f70d3db272829a3d416a688803bd6cf0cbf1becae8c8caa8274709c85b646547",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7177311877012471,
+    "kl": 0.7141194343566895,
+    "reward_ci95": [
+      0.5618180617530015,
+      0.8734795020604451
+    ],
+    "kl_ci95": [
+      0.25154938697814944,
+      1.1919368386268614
+    ],
+    "mean_length": 117.03125,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0017325062292358785
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_001800",
+    "fingerprint": {
+      "generation_sha": "8c103c1d31e35da46216a20fe8dad610a3e9eaa402f0a904e3a2571f801965af",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8424109930037957,
+    "kl": 1.0491704940795898,
+    "reward_ci95": [
+      0.7175243756780219,
+      0.9670361008578311
+    ],
+    "kl_ci95": [
+      0.5905724167823792,
+      1.5237988352775573
+    ],
+    "mean_length": 115.34375,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.001732508689698757
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_001900",
+    "fingerprint": {
+      "generation_sha": "96a30fe996d6d94a0b8db79a15c4f425e6211e37c296eb00190048e61fa7d350",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8435301867993985,
+    "kl": 1.3474493026733398,
+    "reward_ci95": [
+      0.7181504127128846,
+      0.9663954257373916
+    ],
+    "kl_ci95": [
+      0.9296249270439148,
+      1.7601497650146485
+    ],
+    "mean_length": 112.09375,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.001762894312687082
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_002000",
+    "fingerprint": {
+      "generation_sha": "6dcebcf3e814dfe7c2a9af0fe51347a13a44166bf3216e3d9c7b6e5da5e0af61",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8424342344351317,
+    "kl": 0.8999359607696533,
+    "reward_ci95": [
+      0.7173664034394733,
+      0.9671080981775958
+    ],
+    "kl_ci95": [
+      0.49195374846458434,
+      1.3332900285720823
+    ],
+    "mean_length": 120.6875,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.002050421429110976
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_002100",
+    "fingerprint": {
+      "generation_sha": "3356b51b473eb0f0fafa616639ccb4911e9666faf1beafd64328ededfaca9c0b",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8084316801723617,
+    "kl": 0.8954818248748779,
+    "reward_ci95": [
+      0.658313665537753,
+      0.9329095279272679
+    ],
+    "kl_ci95": [
+      0.4927643001079559,
+      1.305858242511749
+    ],
+    "mean_length": 114.875,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.002480861170790317
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_002200",
+    "fingerprint": {
+      "generation_sha": "7318877b1b93f8ee143506f2efb509bc3fa68a3014f795b1df514e52ebe26c95",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8109932428233151,
+    "kl": 0.8962430953979492,
+    "reward_ci95": [
+      0.6558455988127662,
+      0.9356449062804131
+    ],
+    "kl_ci95": [
+      0.49742879867553713,
+      1.2885787367820738
+    ],
+    "mean_length": 114.9375,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.00033244680851063704
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_002300",
+    "fingerprint": {
+      "generation_sha": "8169bf3b1811b57a7e5a8b1bf03837e0370fd557cd6143142d51069aa86542ac",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8428071073649335,
+    "kl": 0.9197430610656738,
+    "reward_ci95": [
+      0.7181240087235438,
+      0.9670802838077635
+    ],
+    "kl_ci95": [
+      0.4517188549041748,
+      1.3978044390678404
+    ],
+    "mean_length": 116.0625,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.004927451018246598
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "curve_002344",
+    "fingerprint": {
+      "generation_sha": "b96687cb41e83a0c1dce31f4f551641b3261ecfb842502187d7a5b275a097e5d",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7494533255994611,
+    "kl": 0.7726924419403076,
+    "reward_ci95": [
+      0.5938061151166039,
+      0.9049600887780798
+    ],
+    "kl_ci95": [
+      0.41522241830825807,
+      1.1421328067779541
+    ],
+    "mean_length": 122.53125,
+    "eos_fraction": 0.09375,
+    "repetition_3gram": 0.003041253045343806
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "dev",
+    "fingerprint": {
+      "generation_sha": "3f113cf92d8d760a1178b1d473af6005cbac99c8eb4cfdf7ed29e9967d0b41f9",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 500,
+    "generations": 500,
+    "reward": 0.7336332892787177,
+    "kl": 0.708557731628418,
+    "reward_ci95": [
+      0.6961685803446482,
+      0.7695580691555195
+    ],
+    "kl_ci95": [
+      0.6045009229660033,
+      0.8066184942245482
+    ],
+    "mean_length": 119.056,
+    "eos_fraction": 0.206,
+    "repetition_3gram": 0.004115736928908053
+  },
+  {
+    "run": "dpo_b5_s42",
+    "evaluation": "test",
+    "fingerprint": {
+      "generation_sha": "cb90dd3a5afa05265cf347a594db0a5bac887d1cf8f80f0699639757ed605f54",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 1000,
+    "generations": 4000,
+    "reward": 0.77945513075505,
+    "kl": 0.7653726167678833,
+    "reward_ci95": [
+      0.7634482426220934,
+      0.7955591925875926
+    ],
+    "kl_ci95": [
+      0.7283749784231186,
+      0.8061779514789581
+    ],
+    "mean_length": 118.8185,
+    "eos_fraction": 0.22325,
+    "repetition_3gram": 0.0026247982209241833
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_000100",
+    "fingerprint": {
+      "generation_sha": "70a917b6572d8f212178d8506d552e2d18b9e4bc3283849df32705d7f43dd16e",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6560412772760174,
+    "kl": 0.14364027976989746,
+    "reward_ci95": [
+      0.5000031919731555,
+      0.8115636684372021
+    ],
+    "kl_ci95": [
+      0.028443080186843873,
+      0.2578406274318695
+    ],
+    "mean_length": 111.375,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0012315569792273363
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_000200",
+    "fingerprint": {
+      "generation_sha": "eb5670875a347669dd77621579275b678be8a5b1522ed6342cb7f99ea145658f",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6615726918962537,
+    "kl": 0.23756718635559082,
+    "reward_ci95": [
+      0.5050171014211629,
+      0.816860325347875
+    ],
+    "kl_ci95": [
+      0.07434587478637696,
+      0.38453200459480286
+    ],
+    "mean_length": 116.03125,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0009968760505892765
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_000300",
+    "fingerprint": {
+      "generation_sha": "d6327daf57461529e891d99d29bb67e80eec307add5f30f27cfb57ddee569680",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7490547881334351,
+    "kl": 0.13988685607910156,
+    "reward_ci95": [
+      0.5931609693930568,
+      0.8743344851881375
+    ],
+    "kl_ci95": [
+      -0.015266281366348266,
+      0.2752866446971893
+    ],
+    "mean_length": 116.09375,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0003094059405940597
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_000400",
+    "fingerprint": {
+      "generation_sha": "334c043e90cf0e46cd4ad9177e0b7ffddf85b7044e4c0a52488a5bd36d385364",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6252850171185855,
+    "kl": 0.07231831550598145,
+    "reward_ci95": [
+      0.46932203810056305,
+      0.7816354038883219
+    ],
+    "kl_ci95": [
+      -0.08788496255874634,
+      0.2370968520641327
+    ],
+    "mean_length": 117.90625,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0030558697531531606
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_000500",
+    "fingerprint": {
+      "generation_sha": "fec8caa6dfb540aeccd97924a096a6c043264fda06e00f18e2d4b8ba3f4ac8e8",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6864958138667134,
+    "kl": 0.12853503227233887,
+    "reward_ci95": [
+      0.5305283756671543,
+      0.8422114836567289
+    ],
+    "kl_ci95": [
+      -0.047562307119369505,
+      0.31963855028152466
+    ],
+    "mean_length": 115.15625,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0003810975609756101
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_000600",
+    "fingerprint": {
+      "generation_sha": "f8c6d1286a0bba4b595e2907225c34a0ced32e7bf1009031da9f8b716e207be6",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7176382969410042,
+    "kl": 0.1565248966217041,
+    "reward_ci95": [
+      0.5616885219360483,
+      0.8731450199923529
+    ],
+    "kl_ci95": [
+      -0.050212806463241576,
+      0.3550316929817197
+    ],
+    "mean_length": 117.5,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.000612745098039217
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_000700",
+    "fingerprint": {
+      "generation_sha": "33323258078b6d73ea56d080f5d10ae2f9b27829666fe9c2c4817b05be6eb4e6",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7171515121353877,
+    "kl": 0.2755248546600342,
+    "reward_ci95": [
+      0.5616457253916906,
+      0.8730023567147782
+    ],
+    "kl_ci95": [
+      0.0692482829093933,
+      0.484437471628189
+    ],
+    "mean_length": 111.21875,
+    "eos_fraction": 0.4375,
+    "repetition_3gram": 0.001999893227390328
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_000800",
+    "fingerprint": {
+      "generation_sha": "a27af2b8c114b9f42001dda3f859a65d294f677bac2aa9be9afa30012dadc52b",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.687201531496612,
+    "kl": 0.17078018188476562,
+    "reward_ci95": [
+      0.5012155809546129,
+      0.8422154419975868
+    ],
+    "kl_ci95": [
+      -0.033861851692199706,
+      0.37604311704635596
+    ],
+    "mean_length": 116.25,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0017582177965374292
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_000900",
+    "fingerprint": {
+      "generation_sha": "a79a45ee108620c7ed93137f96393eb89ed1c1bdfee465101425fb13cd84c029",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7805534889121191,
+    "kl": 0.22214007377624512,
+    "reward_ci95": [
+      0.6259391764333486,
+      0.9049560738059881
+    ],
+    "kl_ci95": [
+      0.02717397212982178,
+      0.4235932826995849
+    ],
+    "mean_length": 112.5,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.00225693927906127
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_001000",
+    "fingerprint": {
+      "generation_sha": "5b0ddfb358b902f93d15dcc03da885695aed5d837cccbe72b4d533c80600149d",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7172348897456686,
+    "kl": 0.21895337104797363,
+    "reward_ci95": [
+      0.5617819759360827,
+      0.8718337863153011
+    ],
+    "kl_ci95": [
+      0.01933066248893738,
+      0.42198511362075797
+    ],
+    "mean_length": 113.59375,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_001100",
+    "fingerprint": {
+      "generation_sha": "9d9a60b4bf0906070b602c7e342e81814f4b604907c03722978d8187ba26235a",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7486965248790511,
+    "kl": 0.21148419380187988,
+    "reward_ci95": [
+      0.5930994904028921,
+      0.9036383896252118
+    ],
+    "kl_ci95": [
+      0.011165755987167358,
+      0.4068843185901641
+    ],
+    "mean_length": 110.96875,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.0010097229833273512
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_001200",
+    "fingerprint": {
+      "generation_sha": "2f7ebaa5b9f3ec7162f4aa943a0c8ff597df18cc8447523ff651d5e4b16bd28e",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7487373602525622,
+    "kl": 0.256697416305542,
+    "reward_ci95": [
+      0.5938282963979418,
+      0.8738879694572461
+    ],
+    "kl_ci95": [
+      0.07394099831581116,
+      0.4365571737289426
+    ],
+    "mean_length": 113.3125,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0003221649484536071
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_001300",
+    "fingerprint": {
+      "generation_sha": "1ed2869a8e4b9b5974cd962eca3bc5856bcc02ba0816a9d3af7b6aeec0637c8d",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7486106520063913,
+    "kl": 0.2005319595336914,
+    "reward_ci95": [
+      0.5929517672772363,
+      0.9024067482966529
+    ],
+    "kl_ci95": [
+      0.00872553586959839,
+      0.39251511096954345
+    ],
+    "mean_length": 115.625,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0017002561744622786
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_001400",
+    "fingerprint": {
+      "generation_sha": "c1179229b98bc331d35853391a03b2bd2bae8ff35aa475bd44ed70fd38dfeb0b",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7487626707916206,
+    "kl": 0.3117203712463379,
+    "reward_ci95": [
+      0.5931281487232809,
+      0.9041172940162596
+    ],
+    "kl_ci95": [
+      0.09513939619064331,
+      0.526695191860199
+    ],
+    "mean_length": 115.1875,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0022327309694799083
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_001500",
+    "fingerprint": {
+      "generation_sha": "37d64e259da0a26ecdbe281a83261f6561107a66ca1b00351bb89b099f004a6b",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6568022442024812,
+    "kl": 0.3099832534790039,
+    "reward_ci95": [
+      0.5011722741524863,
+      0.8125510820462295
+    ],
+    "kl_ci95": [
+      0.0765117883682251,
+      0.5318156719207763
+    ],
+    "mean_length": 113.3125,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0023164564531927383
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_001600",
+    "fingerprint": {
+      "generation_sha": "33a9ae40f1be44ae0cb30dfa674e8f0e56347992dfba5e3bfa5039fe9d040224",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7167157771309576,
+    "kl": 0.21928739547729492,
+    "reward_ci95": [
+      0.5604493584145075,
+      0.8716246355671956
+    ],
+    "kl_ci95": [
+      0.0009251117706298835,
+      0.42672741413116455
+    ],
+    "mean_length": 111.4375,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.002457012300762302
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_001700",
+    "fingerprint": {
+      "generation_sha": "863fedb2e5bec36ad29751fb4054edc27ac5c6ec3929bc50730c5c742b63cf52",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6540741630360571,
+    "kl": 0.15989065170288086,
+    "reward_ci95": [
+      0.498082059665785,
+      0.8094205061728189
+    ],
+    "kl_ci95": [
+      -0.08068828582763672,
+      0.3811388731002806
+    ],
+    "mean_length": 117.875,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0005954541330187822
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_001800",
+    "fingerprint": {
+      "generation_sha": "fa62c7691c9c7da74265b7557d77c81a1596b3ff87def93a10bc54f0da68f919",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7507473965251847,
+    "kl": 0.19026875495910645,
+    "reward_ci95": [
+      0.5934160929486552,
+      0.9031928935943142
+    ],
+    "kl_ci95": [
+      -0.06015626788139343,
+      0.4653497219085691
+    ],
+    "mean_length": 110.59375,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0012651314734648048
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_001900",
+    "fingerprint": {
+      "generation_sha": "9f23089feeac486268ea9c192ca68449b107e5e068a4275588dc98dbdbfdec1f",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7170582090984681,
+    "kl": 0.16463518142700195,
+    "reward_ci95": [
+      0.5612773176070277,
+      0.8722048771739083
+    ],
+    "kl_ci95": [
+      -0.05458282828330994,
+      0.37822910547256455
+    ],
+    "mean_length": 115.71875,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0013888888888888874
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_002000",
+    "fingerprint": {
+      "generation_sha": "5fd7609ab10a6f3293ad810860ae724235094c5149c3e83924d3db000ec8724f",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7792115442371141,
+    "kl": 0.07794618606567383,
+    "reward_ci95": [
+      0.6239691530323398,
+      0.9042112067374546
+    ],
+    "kl_ci95": [
+      -0.11149097681045532,
+      0.2701725125312804
+    ],
+    "mean_length": 117.75,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.00035112359550561884
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_002100",
+    "fingerprint": {
+      "generation_sha": "ffbcf4ffd7d83b7516be8669d629b99e67a23544d28412db6471d45fcdfe9c46",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7175512783305749,
+    "kl": 0.1039278507232666,
+    "reward_ci95": [
+      0.5615531152582207,
+      0.8724679983879013
+    ],
+    "kl_ci95": [
+      -0.11249964237213135,
+      0.31384837627410883
+    ],
+    "mean_length": 117.65625,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0012886597938144319
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_002200",
+    "fingerprint": {
+      "generation_sha": "34a3c9c6b0aa712e020dae3f64500f04bee663f038f27544920ba24f8841e39d",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8101621032310504,
+    "kl": 0.2216506004333496,
+    "reward_ci95": [
+      0.6844170055294398,
+      0.9349705703584732
+    ],
+    "kl_ci95": [
+      -0.0278886079788208,
+      0.4837334871292114
+    ],
+    "mean_length": 118.59375,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0012759007859548845
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_002300",
+    "fingerprint": {
+      "generation_sha": "ca8168313d2c7fb6ffbf41b66ace20c96d4040b238007939ff3342b1fe4d507b",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6247326670709299,
+    "kl": 0.24424386024475098,
+    "reward_ci95": [
+      0.4409244427291014,
+      0.7805957513602152
+    ],
+    "kl_ci95": [
+      -0.0003092110157012895,
+      0.46422133445739744
+    ],
+    "mean_length": 109.5625,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.002251419658531633
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "curve_002344",
+    "fingerprint": {
+      "generation_sha": "281fdee1429d1aea44380fe93d96617c67060edb30ed0a9651e8bc0945f2f05d",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7175984924870136,
+    "kl": 0.1398468017578125,
+    "reward_ci95": [
+      0.5617470811248495,
+      0.8732093323271783
+    ],
+    "kl_ci95": [
+      -0.14263564348220825,
+      0.4040486335754389
+    ],
+    "mean_length": 117.0,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0012853723963812333
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "dev",
+    "fingerprint": {
+      "generation_sha": "20ae4aace4dcce7c7a2f6a909b5fb8058ee68112001b41ddab822a94bec29c8c",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 500,
+    "generations": 500,
+    "reward": 0.6292407467965386,
+    "kl": 0.2909711837768555,
+    "reward_ci95": [
+      0.5892982762520856,
+      0.6709739991508119
+    ],
+    "kl_ci95": [
+      0.2203459342956543,
+      0.35917481517791744
+    ],
+    "mean_length": 117.592,
+    "eos_fraction": 0.242,
+    "repetition_3gram": 0.0019247454879149065
+  },
+  {
+    "run": "preferred_b0.1_s42",
+    "evaluation": "test",
+    "fingerprint": {
+      "generation_sha": "a44bf666f027a4d589857568f76efd6c17b13e28a4bad8b73cab9c74f25d4f2e",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 1000,
+    "generations": 4000,
+    "reward": 0.6385695484789903,
+    "kl": 0.3116961705684662,
+    "reward_ci95": [
+      0.6200664316079001,
+      0.6562107926581618
+    ],
+    "kl_ci95": [
+      0.2874734538257122,
+      0.33610411893129344
+    ],
+    "mean_length": 119.0395,
+    "eos_fraction": 0.213,
+    "repetition_3gram": 0.002569558481778866
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_000100",
+    "fingerprint": {
+      "generation_sha": "4b93b5f4ccf222feb7b669412b61e85054b9111b7a79b64f00559ab39737c043",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6554783748233604,
+    "kl": 0.12535953521728516,
+    "reward_ci95": [
+      0.4994323941066341,
+      0.8113770312313136
+    ],
+    "kl_ci95": [
+      0.01818850040435791,
+      0.22809320688247675
+    ],
+    "mean_length": 112.46875,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.002272961085018805
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_000200",
+    "fingerprint": {
+      "generation_sha": "93c16aa1a42113a095eeeecf1d11080cdd13c7b828b6d5f07bcfb92d20201ad1",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6241364075549427,
+    "kl": 0.1797783374786377,
+    "reward_ci95": [
+      0.4682778168402365,
+      0.7805082507650013
+    ],
+    "kl_ci95": [
+      0.008388316631317139,
+      0.33972163796424865
+    ],
+    "mean_length": 113.3125,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.002591160548650901
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_000300",
+    "fingerprint": {
+      "generation_sha": "fdfa5067db70f34ce0908fd7996ae11a4c43a6488e1f745594a43026ddeeaf6e",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7173893471772317,
+    "kl": 0.18689751625061035,
+    "reward_ci95": [
+      0.5615167663644115,
+      0.8727030581073449
+    ],
+    "kl_ci95": [
+      0.039899760484695436,
+      0.33601360917091366
+    ],
+    "mean_length": 115.78125,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.002537462937657716
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_000400",
+    "fingerprint": {
+      "generation_sha": "9cb838605fb6ba2b416b7b2c3fbd368515ad9dcf4c200c6b718c23308351f710",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7484497661880596,
+    "kl": 0.15702009201049805,
+    "reward_ci95": [
+      0.5921315873923959,
+      0.8739066956317402
+    ],
+    "kl_ci95": [
+      -0.0364893913269043,
+      0.3408708095550534
+    ],
+    "mean_length": 117.03125,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0019544563926839724
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_000500",
+    "fingerprint": {
+      "generation_sha": "92e15785cf99a5b0f6272b31847e76de6e59b176fdef6aeb2530adb54f85e8f3",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8094661313953111,
+    "kl": 0.25192999839782715,
+    "reward_ci95": [
+      0.6820750979991317,
+      0.9341567292781747
+    ],
+    "kl_ci95": [
+      0.03953036665916443,
+      0.44986401200294485
+    ],
+    "mean_length": 114.46875,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.0009382358712715852
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_000600",
+    "fingerprint": {
+      "generation_sha": "9394f3fc2543d7097b6bc6807c2520fbef8f6428eb95ef87a15a4690ad3638c3",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6859472919659311,
+    "kl": 0.15432095527648926,
+    "reward_ci95": [
+      0.5304431251728147,
+      0.8412422760619392
+    ],
+    "kl_ci95": [
+      -0.03632667660713196,
+      0.3506354510784144
+    ],
+    "mean_length": 113.53125,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.001947589404482114
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_000700",
+    "fingerprint": {
+      "generation_sha": "b9d2f5363da6c529bb74c9851aafa5c7e8a537430728ca3c5f505ab07195d863",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7468635268687649,
+    "kl": 0.1770615577697754,
+    "reward_ci95": [
+      0.5917712848271549,
+      0.8736061890700967
+    ],
+    "kl_ci95": [
+      -0.021620917320251464,
+      0.37379307150840735
+    ],
+    "mean_length": 116.84375,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0020406580646704538
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_000800",
+    "fingerprint": {
+      "generation_sha": "768d796aa458375d5c94f20637ac8e14f168f760baa5d6ff9e3c9cb73809075e",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7176998267459567,
+    "kl": 0.1734919548034668,
+    "reward_ci95": [
+      0.5617828214041765,
+      0.8730213380352779
+    ],
+    "kl_ci95": [
+      -0.023320937156677244,
+      0.3548661470413205
+    ],
+    "mean_length": 118.15625,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.001987224088424021
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_000900",
+    "fingerprint": {
+      "generation_sha": "162c13efead3d8ad22290652dce8bead6fb536335b04b2bc66dc2f27474b51dc",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6238010707038484,
+    "kl": 0.024737119674682617,
+    "reward_ci95": [
+      0.4678526511792825,
+      0.7799427744097102
+    ],
+    "kl_ci95": [
+      -0.22293747663497923,
+      0.26411849260330195
+    ],
+    "mean_length": 119.21875,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0007079674175894113
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_001000",
+    "fingerprint": {
+      "generation_sha": "68b0ad1ca91722ee3c2a162bbe6c9c228effc48cceb22ba416349ad49f2058fb",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6866636336199008,
+    "kl": 0.1936500072479248,
+    "reward_ci95": [
+      0.5308416199248314,
+      0.8422589237792181
+    ],
+    "kl_ci95": [
+      -0.0212357759475708,
+      0.39716870188713066
+    ],
+    "mean_length": 115.875,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0015829062174185608
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_001100",
+    "fingerprint": {
+      "generation_sha": "1c976c26717b08a35eabacd38320dd62c3868d6224a6f91b5f6fc58097ad90ec",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7784908410249045,
+    "kl": 0.2786550521850586,
+    "reward_ci95": [
+      0.6231453153180155,
+      0.904177660290452
+    ],
+    "kl_ci95": [
+      0.045528519153594973,
+      0.510803580284118
+    ],
+    "mean_length": 113.59375,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.0006999751119960186
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_001200",
+    "fingerprint": {
+      "generation_sha": "e0f02fdbd94a7c93385dc2ae858719a60dc045a6b879ee3229a97ba9e7b53957",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6553460910254216,
+    "kl": 0.2406003475189209,
+    "reward_ci95": [
+      0.4689051628224661,
+      0.8112047317780252
+    ],
+    "kl_ci95": [
+      0.02677992582321167,
+      0.4517316401004791
+    ],
+    "mean_length": 115.3125,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0006967541266321743
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_001300",
+    "fingerprint": {
+      "generation_sha": "7aedac7cef53e454bfe3a1b4375f3e5f1b59ee57bc4e3324b941231df8edf87c",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6860101929323719,
+    "kl": 0.2659311294555664,
+    "reward_ci95": [
+      0.5013831479885994,
+      0.8414667610182732
+    ],
+    "kl_ci95": [
+      0.06033759117126465,
+      0.4679314136505127
+    ],
+    "mean_length": 115.1875,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.003942466270080974
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_001400",
+    "fingerprint": {
+      "generation_sha": "0510ccf279cad4b9c1434f616fb2a335c0af2917360847f18dbd6ee25c6f3f48",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7474466713410948,
+    "kl": 0.20252108573913574,
+    "reward_ci95": [
+      0.5925819791806134,
+      0.9015895595588518
+    ],
+    "kl_ci95": [
+      -0.016068202257156373,
+      0.4061106383800505
+    ],
+    "mean_length": 116.71875,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_001500",
+    "fingerprint": {
+      "generation_sha": "1bda4d03d3cc3787933cddd93f804452c3f5b89eb0e7a747a6cc50d8b5cc8a12",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7186521193452791,
+    "kl": 0.25076937675476074,
+    "reward_ci95": [
+      0.5625474547730847,
+      0.8444724587989184
+    ],
+    "kl_ci95": [
+      0.03513765335083008,
+      0.43931261301040636
+    ],
+    "mean_length": 114.0,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0006875604448742731
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_001600",
+    "fingerprint": {
+      "generation_sha": "f2cad82cc84d832a7ed50fa54801a0b81bb038bc6d847a282d895faf41e38595",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.5937279027784825,
+    "kl": 0.2354440689086914,
+    "reward_ci95": [
+      0.43782431797776555,
+      0.7498550071737554
+    ],
+    "kl_ci95": [
+      -0.017092967033386232,
+      0.49251494407653773
+    ],
+    "mean_length": 117.09375,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.001707766439909296
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_001700",
+    "fingerprint": {
+      "generation_sha": "54d0702ce688fa54768d2c663f92c6b981b09cd1caeda64328af98a6b1c60c5d",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7167924099194352,
+    "kl": 0.15339088439941406,
+    "reward_ci95": [
+      0.5606356785889602,
+      0.8720053086176904
+    ],
+    "kl_ci95": [
+      -0.055106377601623534,
+      0.3431367516517638
+    ],
+    "mean_length": 114.09375,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0023275136186982903
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_001800",
+    "fingerprint": {
+      "generation_sha": "e6179e87a6bdab6d08622b8a8cfb6fbe0ddfb7d24b9bd63ce4b18b1659cfbeb5",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6556275045895745,
+    "kl": 0.14550495147705078,
+    "reward_ci95": [
+      0.49959372545304176,
+      0.8116126126871223
+    ],
+    "kl_ci95": [
+      -0.11436312198638916,
+      0.39980474710464464
+    ],
+    "mean_length": 112.03125,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.00126549311128403
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_001900",
+    "fingerprint": {
+      "generation_sha": "4f2e06a1eb298e30057c32796369c3f6ec7ff63900a22c6ccbf201a4eeb7a35f",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7485332738906436,
+    "kl": 0.23296093940734863,
+    "reward_ci95": [
+      0.593002088355479,
+      0.9027716419136596
+    ],
+    "kl_ci95": [
+      -0.013632804155349726,
+      0.4777585208415984
+    ],
+    "mean_length": 111.65625,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.0006193583202511767
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_002000",
+    "fingerprint": {
+      "generation_sha": "3c26c559fe6eeafa4a11abbce8c289dc9e37d2816ed935a20d0ed37dc21725ab",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8103410962612543,
+    "kl": 0.21538424491882324,
+    "reward_ci95": [
+      0.6551656110501426,
+      0.9350524515801226
+    ],
+    "kl_ci95": [
+      -0.026126235723495483,
+      0.4579383492469787
+    ],
+    "mean_length": 115.78125,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0025205058451329247
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_002100",
+    "fingerprint": {
+      "generation_sha": "6dbc43bebcd1678ceadda210e7c73588a4c996c5c54388bf84d6948614027ec0",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7792209938324959,
+    "kl": 0.2617378234863281,
+    "reward_ci95": [
+      0.6234196892311047,
+      0.9043513241359961
+    ],
+    "kl_ci95": [
+      0.03448662757873535,
+      0.47154606580734226
+    ],
+    "mean_length": 109.625,
+    "eos_fraction": 0.375,
+    "repetition_3gram": 0.0009994913409109296
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_002200",
+    "fingerprint": {
+      "generation_sha": "986824bd9026428b7245f746b036ffadeae3622d4a85589cd74486bacab65e5f",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7171346210070624,
+    "kl": 0.25145816802978516,
+    "reward_ci95": [
+      0.5606297115185044,
+      0.8721342044819721
+    ],
+    "kl_ci95": [
+      0.0038372755050659186,
+      0.4880084395408629
+    ],
+    "mean_length": 116.5,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0018147178035207365
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_002300",
+    "fingerprint": {
+      "generation_sha": "5d6a9c66325f703e4d1f97ed862f92b5bb66c84fdb42943b07774f689cc99d7c",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6558713422746223,
+    "kl": 0.20700860023498535,
+    "reward_ci95": [
+      0.4997391830023844,
+      0.8116341315076625
+    ],
+    "kl_ci95": [
+      -0.08566020727157593,
+      0.5012546300888061
+    ],
+    "mean_length": 118.0,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0012707490918515765
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "curve_002344",
+    "fingerprint": {
+      "generation_sha": "a63f0cdf3fcfe5a2b38f6edfb4dfcd8ebce5169d1a8a5d45637bba6f5c26c4a8",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7490127318105806,
+    "kl": -0.037892818450927734,
+    "reward_ci95": [
+      0.5932651686179724,
+      0.9042692507597166
+    ],
+    "kl_ci95": [
+      -0.2556939601898193,
+      0.1939096927642821
+    ],
+    "mean_length": 113.875,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.00032894736842105365
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "dev",
+    "fingerprint": {
+      "generation_sha": "786aa2347ca7feb7b8bfecf9535d35d57f60c6353b95c11581e3b35be5df512a",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 500,
+    "generations": 500,
+    "reward": 0.6114906372872064,
+    "kl": 0.2737831268310547,
+    "reward_ci95": [
+      0.5682149955057524,
+      0.6499826732390749
+    ],
+    "kl_ci95": [
+      0.21050992393493653,
+      0.3384813550949097
+    ],
+    "mean_length": 115.236,
+    "eos_fraction": 0.27,
+    "repetition_3gram": 0.002284170791763183
+  },
+  {
+    "run": "preferred_b0.1_s43",
+    "evaluation": "test",
+    "fingerprint": {
+      "generation_sha": "e6448192467b9a1b56d66fec0b55b77b341e8067797605d875da9eda76b6c95e",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 1000,
+    "generations": 4000,
+    "reward": 0.6432029970680524,
+    "kl": 0.3068373816013336,
+    "reward_ci95": [
+      0.6246108395795843,
+      0.6614770085158966
+    ],
+    "kl_ci95": [
+      0.284407081258297,
+      0.329096858549118
+    ],
+    "mean_length": 118.31675,
+    "eos_fraction": 0.2255,
+    "repetition_3gram": 0.002599594921409162
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_000100",
+    "fingerprint": {
+      "generation_sha": "1f95cdc6f5dae1d99bab8e2fe4103dbbddb195afbc09926e1ad0a95510c0c6fc",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6562074220228169,
+    "kl": 0.14392828941345215,
+    "reward_ci95": [
+      0.498743791002903,
+      0.8115213093386501
+    ],
+    "kl_ci95": [
+      0.045244693756103516,
+      0.2449901103973388
+    ],
+    "mean_length": 114.0625,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0018429037096350138
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_000200",
+    "fingerprint": {
+      "generation_sha": "52d2f7b8ef136918d0b9b91b2339a95bd64066aa3410b23412c2f1b79df73531",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7156251171982149,
+    "kl": 0.2515714168548584,
+    "reward_ci95": [
+      0.5599182463290162,
+      0.8714249608354294
+    ],
+    "kl_ci95": [
+      0.08503900766372681,
+      0.4120085537433624
+    ],
+    "mean_length": 117.46875,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0015516665258429804
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_000300",
+    "fingerprint": {
+      "generation_sha": "66a7e47911608518a563d6288f077f0d4c05a3f90b4bf3fc92dce5949b874832",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6542477900402446,
+    "kl": 0.25330328941345215,
+    "reward_ci95": [
+      0.4980859394174786,
+      0.8101885694076827
+    ],
+    "kl_ci95": [
+      0.10077710747718811,
+      0.40129727125167847
+    ],
+    "mean_length": 112.59375,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0012608264955466728
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_000400",
+    "fingerprint": {
+      "generation_sha": "03c48324a24db0e601aa9c81ee6b7e07104c2fa130dde4be03d9818d599e9dde",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7778213748424605,
+    "kl": 0.28184962272644043,
+    "reward_ci95": [
+      0.6230803215472406,
+      0.9030944518658544
+    ],
+    "kl_ci95": [
+      0.11105521321296692,
+      0.4518427252769469
+    ],
+    "mean_length": 113.59375,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0008024691358024701
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_000500",
+    "fingerprint": {
+      "generation_sha": "838713cb20fa1c9913a70d98aeced1afb1c71e549c5ab0b25970672deececbd8",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7176651193385624,
+    "kl": 0.30196428298950195,
+    "reward_ci95": [
+      0.5621137762431317,
+      0.8732609180563485
+    ],
+    "kl_ci95": [
+      0.15511529445648192,
+      0.4526477694511413
+    ],
+    "mean_length": 116.625,
+    "eos_fraction": 0.15625,
+    "repetition_3gram": 0.001499651686699452
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_000600",
+    "fingerprint": {
+      "generation_sha": "c331fffe9372fcbaf9ea4c3be8ef98cb8dea51cf7645ca5aed92c2465478ad22",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7483019115115894,
+    "kl": 0.24074482917785645,
+    "reward_ci95": [
+      0.5928802143682788,
+      0.9019295477397009
+    ],
+    "kl_ci95": [
+      0.05868329405784607,
+      0.4182484209537506
+    ],
+    "mean_length": 118.0625,
+    "eos_fraction": 0.15625,
+    "repetition_3gram": 0.001523942222653639
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_000700",
+    "fingerprint": {
+      "generation_sha": "7f823b955fcab276d66f726989574c08cd651488b400c653fb94dade62b4f55a",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7495202018108102,
+    "kl": 0.34370923042297363,
+    "reward_ci95": [
+      0.5938727548637871,
+      0.9046787723645593
+    ],
+    "kl_ci95": [
+      0.17352980971336365,
+      0.5078025281429289
+    ],
+    "mean_length": 112.71875,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.001803541538566645
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_000800",
+    "fingerprint": {
+      "generation_sha": "381bc76eb4d4a10167046e16022ea9bbf3e8ad7f18992b42ba84724c30c1d561",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6870904810293723,
+    "kl": 0.23542523384094238,
+    "reward_ci95": [
+      0.5311642234028113,
+      0.8427078256874211
+    ],
+    "kl_ci95": [
+      0.03710127472877503,
+      0.420935833454132
+    ],
+    "mean_length": 116.90625,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.001747964810924367
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_000900",
+    "fingerprint": {
+      "generation_sha": "7553c96505c76741d2b0d66fa4ad080889a6c10dae08e999d9bc9be83254badb",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6868967230566341,
+    "kl": 0.13250732421875,
+    "reward_ci95": [
+      0.5308880895557195,
+      0.842724868693358
+    ],
+    "kl_ci95": [
+      -0.009001874923706054,
+      0.26634802818298337
+    ],
+    "mean_length": 115.84375,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0009334083469721768
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_001000",
+    "fingerprint": {
+      "generation_sha": "0a56b606e22dad3cc0aa7516d94c6c7c511652566cb6e2b8156d8864732b9058",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6854050255005859,
+    "kl": 0.20378613471984863,
+    "reward_ci95": [
+      0.5295365516017683,
+      0.8416272088074038
+    ],
+    "kl_ci95": [
+      0.012752336263656617,
+      0.3910330593585968
+    ],
+    "mean_length": 118.03125,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0013139333818711317
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_001100",
+    "fingerprint": {
+      "generation_sha": "ed581087f62da2e8ef69f016c94c754f295103aedb2ec257af6179b8d6364a8b",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7488401046921354,
+    "kl": 0.14996123313903809,
+    "reward_ci95": [
+      0.5931710474965257,
+      0.9043488906474068
+    ],
+    "kl_ci95": [
+      -0.03928903341293335,
+      0.3311316907405851
+    ],
+    "mean_length": 116.6875,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0010093810525900783
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_001200",
+    "fingerprint": {
+      "generation_sha": "e06b5f991c975067e4201457471b823f1733327c7d5f8ad24db614c4763999a6",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7168991669877869,
+    "kl": 0.09099864959716797,
+    "reward_ci95": [
+      0.5613108991194167,
+      0.8711998991073415
+    ],
+    "kl_ci95": [
+      -0.10101078748703003,
+      0.2907781004905698
+    ],
+    "mean_length": 115.6875,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.0010811285015696684
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_001300",
+    "fingerprint": {
+      "generation_sha": "445b36fd3f8c45c6d7f4ab876316c403d3bf6fc52a2633828cc6abd59ad52724",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6558242526607501,
+    "kl": 0.12618494033813477,
+    "reward_ci95": [
+      0.46997724479315367,
+      0.811552504407382
+    ],
+    "kl_ci95": [
+      -0.05474542379379272,
+      0.30408346056938135
+    ],
+    "mean_length": 110.0625,
+    "eos_fraction": 0.375,
+    "repetition_3gram": 0.0014536691542288566
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_001400",
+    "fingerprint": {
+      "generation_sha": "dde17ff7d4dc77f7f925f6cd94e8904dc4cb6fed7cfb80499612ec1d2cb7d1ac",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6852576058809063,
+    "kl": 0.29507875442504883,
+    "reward_ci95": [
+      0.5294465808019595,
+      0.8410503452887497
+    ],
+    "kl_ci95": [
+      0.07805726528167725,
+      0.49294766187667843
+    ],
+    "mean_length": 121.96875,
+    "eos_fraction": 0.15625,
+    "repetition_3gram": 0.001698294829482947
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_001500",
+    "fingerprint": {
+      "generation_sha": "6d3014bf38a24b6621dfa43f1412eaf4a7f22f8836b0e65e3f3ea0d7c80f58d4",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7172544351669785,
+    "kl": 0.27968740463256836,
+    "reward_ci95": [
+      0.5620178171415319,
+      0.8722558944800312
+    ],
+    "kl_ci95": [
+      0.0926971435546875,
+      0.47531071901321403
+    ],
+    "mean_length": 113.9375,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.004217746710124759
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_001600",
+    "fingerprint": {
+      "generation_sha": "be79b28e67942d45778d879b0dad5892c20f489e37f9412308629d323def06ad",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7795913215704786,
+    "kl": 0.3293426036834717,
+    "reward_ci95": [
+      0.6247952315887687,
+      0.9051174507662836
+    ],
+    "kl_ci95": [
+      0.13362717032432556,
+      0.5285465598106384
+    ],
+    "mean_length": 116.34375,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0019730010384215978
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_001700",
+    "fingerprint": {
+      "generation_sha": "ab9ce002408a5ae32035acc582074051f8f25168d4467f846c1888ede0b8be48",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7487073564225284,
+    "kl": 0.21777844429016113,
+    "reward_ci95": [
+      0.5930628160010201,
+      0.9036026627677074
+    ],
+    "kl_ci95": [
+      0.015021979808807378,
+      0.4234979212284088
+    ],
+    "mean_length": 116.3125,
+    "eos_fraction": 0.21875,
+    "repetition_3gram": 0.0006129807692307684
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_001800",
+    "fingerprint": {
+      "generation_sha": "978c3c7db51e2aa2d02482bc9fdc35a797bb2e9acd1ea2874537847c09e34e9c",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.8364270782822132,
+    "kl": 0.15760087966918945,
+    "reward_ci95": [
+      0.7094745380788481,
+      0.9567393630487003
+    ],
+    "kl_ci95": [
+      -0.05034341812133789,
+      0.3733680963516234
+    ],
+    "mean_length": 115.1875,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0012550007693491287
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_001900",
+    "fingerprint": {
+      "generation_sha": "d37f688e91807e1a89e5d738e7e96a0d8fe49de5cb7d78d83308204c40113b9a",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7173721329509135,
+    "kl": 0.16147589683532715,
+    "reward_ci95": [
+      0.5615514173436168,
+      0.8729562949503361
+    ],
+    "kl_ci95": [
+      -0.08048684000968934,
+      0.4008960127830502
+    ],
+    "mean_length": 115.1875,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.001581578464020187
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_002000",
+    "fingerprint": {
+      "generation_sha": "2ae2c5a16414dbc960f6260989b9636308eeb4ba68867afd67d88c2fb21d104b",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6391319806607498,
+    "kl": 0.2020244598388672,
+    "reward_ci95": [
+      0.4812031002088588,
+      0.7949978846821069
+    ],
+    "kl_ci95": [
+      -0.0006394624710082992,
+      0.4179258704185484
+    ],
+    "mean_length": 115.46875,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.001116071428571428
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_002100",
+    "fingerprint": {
+      "generation_sha": "8dddc32049188a45cf7e295967b88d3b9196385b4c56b1fbec868ace89230462",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6564654883477488,
+    "kl": 0.25386667251586914,
+    "reward_ci95": [
+      0.5001696455672118,
+      0.8119865803442281
+    ],
+    "kl_ci95": [
+      0.021421504020690926,
+      0.4775249838829037
+    ],
+    "mean_length": 115.9375,
+    "eos_fraction": 0.34375,
+    "repetition_3gram": 0.0013968581162098516
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_002200",
+    "fingerprint": {
+      "generation_sha": "e2f8f2538121a3f69ef2a348010ca3c7f35c26d093e51c1a9ccc89cfbbec8948",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.5944446195098863,
+    "kl": 0.16288161277770996,
+    "reward_ci95": [
+      0.43727284444717046,
+      0.7501547361887333
+    ],
+    "kl_ci95": [
+      -0.06121690273284912,
+      0.38002629876136756
+    ],
+    "mean_length": 117.3125,
+    "eos_fraction": 0.28125,
+    "repetition_3gram": 0.0006380208333333325
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_002300",
+    "fingerprint": {
+      "generation_sha": "4f68e21928b484cf4437c6751f23cd8b06724e603d80d0e13a18d5485fb6d4ae",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7796160242069163,
+    "kl": 0.18004584312438965,
+    "reward_ci95": [
+      0.6241213671793957,
+      0.9040923263178229
+    ],
+    "kl_ci95": [
+      -0.035227274894714354,
+      0.3880508303642273
+    ],
+    "mean_length": 113.34375,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.0015883272428080415
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "curve_002344",
+    "fingerprint": {
+      "generation_sha": "0b4bd25a32e207bb80541e2472de02b2261d0bb416de108af8167b3dced860bc",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.7487488903898338,
+    "kl": 0.330075740814209,
+    "reward_ci95": [
+      0.5931663493695851,
+      0.8739239946928137
+    ],
+    "kl_ci95": [
+      0.07934807538986206,
+      0.5473493576049804
+    ],
+    "mean_length": 117.09375,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0012474504662004643
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "dev",
+    "fingerprint": {
+      "generation_sha": "e5d41ffdde607fed7ed80eec2a25e763bf5ac5f894ee1641097fc1031864b1b0",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 500,
+    "generations": 500,
+    "reward": 0.5974925134744262,
+    "kl": 0.26824823760986327,
+    "reward_ci95": [
+      0.5555342786685171,
+      0.6389594336712136
+    ],
+    "kl_ci95": [
+      0.195806990814209,
+      0.332456088066101
+    ],
+    "mean_length": 116.184,
+    "eos_fraction": 0.264,
+    "repetition_3gram": 0.0016740467422037286
+  },
+  {
+    "run": "preferred_b0.1_s44",
+    "evaluation": "test",
+    "fingerprint": {
+      "generation_sha": "4bdb279b2ee9c8ee69746aa76eb50f1427d286d198816bfab9b15dc8ab00069c",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 1000,
+    "generations": 4000,
+    "reward": 0.635330449547946,
+    "kl": 0.3071742920875549,
+    "reward_ci95": [
+      0.6170060917983337,
+      0.6540888913253556
+    ],
+    "kl_ci95": [
+      0.2848363446831703,
+      0.32915875089168545
+    ],
+    "mean_length": 118.68775,
+    "eos_fraction": 0.2175,
+    "repetition_3gram": 0.0022375410480273113
+  },
+  {
+    "run": "sft",
+    "evaluation": "curve_000100",
+    "fingerprint": {
+      "generation_sha": "a218435ab0f9e0f2fd46b136ebd16d2fc9dbf3e8182bcdfbb4b07d001d397a82",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.43691369999669405,
+    "kl": 4.077696800231934,
+    "reward_ci95": [
+      0.28093008207267756,
+      0.6216134027371936
+    ],
+    "kl_ci95": [
+      3.3882376909255982,
+      4.716230392456054
+    ],
+    "mean_length": 122.1875,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0005896226415094338
+  },
+  {
+    "run": "sft",
+    "evaluation": "curve_000200",
+    "fingerprint": {
+      "generation_sha": "636ce1662619f0c66069e66003a4bc2afd007ab9419d986965820d83079ce4a8",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.43640256778962794,
+    "kl": 3.308746337890625,
+    "reward_ci95": [
+      0.280347484123331,
+      0.6224816408147035
+    ],
+    "kl_ci95": [
+      2.522648787498474,
+      4.178237128257751
+    ],
+    "mean_length": 117.125,
+    "eos_fraction": 0.25,
+    "repetition_3gram": 0.0024404861948160647
+  },
+  {
+    "run": "sft",
+    "evaluation": "curve_000300",
+    "fingerprint": {
+      "generation_sha": "8c6a48891857434da5c4326e35596749d384195c17a999f9e8cb5d6f8838a3b3",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.5929704350473912,
+    "kl": 1.8080673217773438,
+    "reward_ci95": [
+      0.43656112597468566,
+      0.7494077857410048
+    ],
+    "kl_ci95": [
+      1.130119502544403,
+      2.5051193714141844
+    ],
+    "mean_length": 112.09375,
+    "eos_fraction": 0.3125,
+    "repetition_3gram": 0.00667595963838296
+  },
+  {
+    "run": "sft",
+    "evaluation": "curve_000372",
+    "fingerprint": {
+      "generation_sha": "dd125093fe404ff7fae1879188f2b1ebe908c51b4bcf79449ad6159f1f6f20d0",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 32,
+    "generations": 32,
+    "reward": 0.6237400172385605,
+    "kl": 0.0,
+    "reward_ci95": [
+      0.4679612451193407,
+      0.7798256696031786
+    ],
+    "kl_ci95": [
+      0.0,
+      0.0
+    ],
+    "mean_length": 118.3125,
+    "eos_fraction": 0.1875,
+    "repetition_3gram": 0.0016813287176619326
+  },
+  {
+    "run": "sft",
+    "evaluation": "dev",
+    "fingerprint": {
+      "generation_sha": "24fddc8848ee52d4f925a04793ae7cdf7e59d1d2e3898e37cbe698f1a745a565",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 500,
+    "generations": 500,
+    "reward": 0.5077597022654954,
+    "kl": 1.52587890625e-07,
+    "reward_ci95": [
+      0.4643083696722795,
+      0.5525561027101779
+    ],
+    "kl_ci95": [
+      -7.32421875e-07,
+      1.03759765625e-06
+    ],
+    "mean_length": 117.978,
+    "eos_fraction": 0.218,
+    "repetition_3gram": 0.0020635700686092414
+  },
+  {
+    "run": "sft",
+    "evaluation": "test",
+    "fingerprint": {
+      "generation_sha": "56bf17e82fd1a0473f7b69f58fc3f00ea4fa359fe63bdd991c7b3d47c8af4296",
+      "reference_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+      "evaluator_sha": "3bc3619e76c5521984cc1a84ab3ec3e340d47f35d0af83c216ee6efd572c8acd"
+    },
+    "prompts": 1000,
+    "generations": 4000,
+    "reward": 0.5205831564677501,
+    "kl": -7.486343383789063e-08,
+    "reward_ci95": [
+      0.5020981650476531,
+      0.5390598770806015
+    ],
+    "kl_ci95": [
+      -4.0435791015625e-07,
+      2.5942325592041007e-07
+    ],
+    "mean_length": 119.04125,
+    "eos_fraction": 0.21325,
+    "repetition_3gram": 0.002358925552558904
+  }
+]

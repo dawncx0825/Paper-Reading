@@ -1,0 +1,136 @@
+{
+  "checked_at": "2026-10-10T17:58:24.475368+00:00",
+  "runs": {
+    "dpo_b0.05_s42": {
+      "generations": 4000,
+      "unique_ids": 4000,
+      "prompts": 1000,
+      "sample_counts": [
+        4
+      ],
+      "generation_sha_matches": true,
+      "scored_sha256": "7780c4bc68bac31d83d8bbf529eef0cc00a2c36f22125e3b89d307fbd3588cd6",
+      "numeric_finite": true,
+      "reward_mean": 0.997937919236545,
+      "kl_mean": 19.04218602657318
+    },
+    "dpo_b0.1_s42": {
+      "generations": 4000,
+      "unique_ids": 4000,
+      "prompts": 1000,
+      "sample_counts": [
+        4
+      ],
+      "generation_sha_matches": true,
+      "scored_sha256": "cb78565739c43dc4192057b507f70b3df28eccbf6e9e38f6304d6c4dc628b9b6",
+      "numeric_finite": true,
+      "reward_mean": 0.9938910885405058,
+      "kl_mean": 10.686453279733659
+    },
+    "dpo_b0.1_s43": {
+      "generations": 4000,
+      "unique_ids": 4000,
+      "prompts": 1000,
+      "sample_counts": [
+        4
+      ],
+      "generation_sha_matches": true,
+      "scored_sha256": "2953c8ea8ff31bc3cb3bec0d038ff506ee4d571259b770b3f6530fd5c827fa4f",
+      "numeric_finite": true,
+      "reward_mean": 0.9944619195407577,
+      "kl_mean": 10.426865619421005
+    },
+    "dpo_b0.1_s44": {
+      "generations": 4000,
+      "unique_ids": 4000,
+      "prompts": 1000,
+      "sample_counts": [
+        4
+      ],
+      "generation_sha_matches": true,
+      "scored_sha256": "7c889c7ddea097f72fb57a01e6ad3de9623de998bfbd1b543b51222362ffe945",
+      "numeric_finite": true,
+      "reward_mean": 0.9936886474978237,
+      "kl_mean": 10.400283929347992
+    },
+    "dpo_b1_s42": {
+      "generations": 4000,
+      "unique_ids": 4000,
+      "prompts": 1000,
+      "sample_counts": [
+        4
+      ],
+      "generation_sha_matches": true,
+      "scored_sha256": "c1cd806d49ee03bf5992d0474dc5ef87c050a1132b64ee75cb2a17118bcefde8",
+      "numeric_finite": true,
+      "reward_mean": 0.8802757462871086,
+      "kl_mean": 1.4877644081115722
+    },
+    "dpo_b5_s42": {
+      "generations": 4000,
+      "unique_ids": 4000,
+      "prompts": 1000,
+      "sample_counts": [
+        4
+      ],
+      "generation_sha_matches": true,
+      "scored_sha256": "2a5502f2c966cbef6f6962aa183a9cabdfba6cd2ed697313cb65231d8d699648",
+      "numeric_finite": true,
+      "reward_mean": 0.77945513075505,
+      "kl_mean": 0.7653726167678833
+    },
+    "preferred_b0.1_s42": {
+      "generations": 4000,
+      "unique_ids": 4000,
+      "prompts": 1000,
+      "sample_counts": [
+        4
+      ],
+      "generation_sha_matches": true,
+      "scored_sha256": "3a5e3c2f97283cb4b31d563ecec2376b5ad4f646077765619c9f5711863090fd",
+      "numeric_finite": true,
+      "reward_mean": 0.6385695484789903,
+      "kl_mean": 0.3116961705684662
+    },
+    "preferred_b0.1_s43": {
+      "generations": 4000,
+      "unique_ids": 4000,
+      "prompts": 1000,
+      "sample_counts": [
+        4
+      ],
+      "generation_sha_matches": true,
+      "scored_sha256": "c051ccde38df001c7f9cebbd9c84fa76d263f133be4a47b771a0d2ef0ef21b24",
+      "numeric_finite": true,
+      "reward_mean": 0.6432029970680524,
+      "kl_mean": 0.3068373816013336
+    },
+    "preferred_b0.1_s44": {
+      "generations": 4000,
+      "unique_ids": 4000,
+      "prompts": 1000,
+      "sample_counts": [
+        4
+      ],
+      "generation_sha_matches": true,
+      "scored_sha256": "bb5971deca4c9ba864f877c071ae284f13ea888168fd3b7548c30448fe02385d",
+      "numeric_finite": true,
+      "reward_mean": 0.635330449547946,
+      "kl_mean": 0.3071742920875549
+    },
+    "sft": {
+      "generations": 4000,
+      "unique_ids": 4000,
+      "prompts": 1000,
+      "sample_counts": [
+        4
+      ],
+      "generation_sha_matches": true,
+      "scored_sha256": "518b6bc7419890d519815563ae03079bfadc9392231931b7ff89160f83e07bdc",
+      "numeric_finite": true,
+      "reward_mean": 0.5205831564677501,
+      "kl_mean": -7.486343383789063e-08
+    }
+  },
+  "sample_selection": "every 400th row plus five lowest reward and five highest repetition; deduplicated indices"
+}

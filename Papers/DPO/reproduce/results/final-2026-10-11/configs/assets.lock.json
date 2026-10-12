@@ -1,0 +1,128 @@
+{
+  "base": {
+    "repo": "openai-community/gpt2-large",
+    "kind": "model",
+    "revision": "32b71b12589c2f8d625668d2335a01cac3249519",
+    "files": {
+      "README.md": {
+        "bytes": 12348,
+        "sha256": "858e46e4722747071242fbc8f4cbdb97b55e54b7f8ee9d8c943d454ee37ba360"
+      },
+      "generation_config_for_text_generation.json": {
+        "bytes": 165,
+        "sha256": "a69e99c4a690c2015aaaeaef066516f1df9316317b3605869039fa896108efce"
+      },
+      "config.json": {
+        "bytes": 666,
+        "sha256": "7fccdcfd6622055342a734c663ee0b61ff4fd697f42467595df0bf4448c8c170"
+      },
+      "generation_config.json": {
+        "bytes": 124,
+        "sha256": "b90eadacf585a743a30ea51e8b5c88b8d282a2a34dc0c7e556d0987cdbd68805"
+      },
+      "merges.txt": {
+        "bytes": 456318,
+        "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+      },
+      "tokenizer_config.json": {
+        "bytes": 26,
+        "sha256": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f"
+      },
+      "tokenizer.json": {
+        "bytes": 1355256,
+        "sha256": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6"
+      },
+      "vocab.json": {
+        "bytes": 1042301,
+        "sha256": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783"
+      },
+      "model.safetensors": {
+        "bytes": 3247159078,
+        "sha256": "5f47f3e12f91cd33b662ce7e433b6150ad5512b5884a2cee961b50e9c3bbebce"
+      },
+      "onnx/config.json": {
+        "bytes": 886,
+        "sha256": "69aab9dc7c31e4e3a6c0aaacfc0ecefc29892a2ae7311c9cdb7b3b5fffdbf1b6"
+      },
+      "onnx/generation_config.json": {
+        "bytes": 119,
+        "sha256": "067a873d1d1a67ffa7237a0ad0eebdb547d3f9209793c8aa476ec130815e3c8c"
+      },
+      "onnx/special_tokens_map.json": {
+        "bytes": 99,
+        "sha256": "6f50ab5a5a509a1c309d6171f339b196a900dc9c99ad0408ff23bb615fdae7ad"
+      },
+      "onnx/merges.txt": {
+        "bytes": 456318,
+        "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+      },
+      "onnx/tokenizer_config.json": {
+        "bytes": 234,
+        "sha256": "551e26ec611d8d0c8edc3ef72e518a38418cb71f40de1347dd486a595e1557d7"
+      },
+      "onnx/tokenizer.json": {
+        "bytes": 2107653,
+        "sha256": "cda20b8ca044949aa07ac4078420c80d1a57139d5f9f33700e46fb2d891e7c66"
+      },
+      "onnx/vocab.json": {
+        "bytes": 798156,
+        "sha256": "3ba3c3109ff33976c4bd966589c11ee14fcaa1f4c9e5e154c2ed7f99d80709e7"
+      }
+    }
+  },
+  "reward": {
+    "repo": "siebert/sentiment-roberta-large-english",
+    "kind": "model",
+    "revision": "74cea614e245b0832c770ec9aa51bd58df965b9c",
+    "files": {
+      "README.md": {
+        "bytes": 5181,
+        "sha256": "2b7079fa0a511fb3b9f7258bc26993ec45ea9baee2a23a985be18936f67a037b"
+      },
+      "config.json": {
+        "bytes": 687,
+        "sha256": "a019c4e77e23d9d6daf514efd52bf7988ef63a4cf4f01cee85593dc74940fc58"
+      },
+      "merges.txt": {
+        "bytes": 456356,
+        "sha256": "fe36cab26d4f4421ed725e10a2e9ddb7f799449c603a96e7f29b5a3c82a95862"
+      },
+      "special_tokens_map.json": {
+        "bytes": 150,
+        "sha256": "7638f5bbbe86ef6d604ef28ad3647dc690d6d117c81c0d63e885416be8da1150"
+      },
+      "tokenizer_config.json": {
+        "bytes": 256,
+        "sha256": "e5fdce4c4d2f83496b184197b9ea8005c0ff88b71797a8bd764b1024bc534871"
+      },
+      "vocab.json": {
+        "bytes": 798293,
+        "sha256": "ed19656ea1707df69134c4af35c8ceda2cc9860bf2c3495026153a133670ab5e"
+      },
+      "pytorch_model.bin": {
+        "bytes": 1421616707,
+        "sha256": "805688de73481b1175b1e06f05a971144dceb7e0064b64a84b78a3685eb3209d"
+      }
+    }
+  },
+  "imdb": {
+    "repo": "stanfordnlp/imdb",
+    "kind": "dataset",
+    "revision": "e6281661ce1c48d982bc483cf8a173c1bbeb5d31",
+    "files": {
+      "README.md": {
+        "bytes": 7809,
+        "sha256": "595990b17278ad1ee355a3bc34d89a5e72328490c60fcb92a24df27dfaa643d9"
+      },
+      "plain_text/test-00000-of-00001.parquet": {
+        "bytes": 20470363,
+        "sha256": "b52e26e2f872d282ffac460bf9770b25ac6f102cda0e6ca7158df98c94e8b3da"
+      },
+      "plain_text/train-00000-of-00001.parquet": {
+        "bytes": 20979968,
+        "sha256": "db47d16b5c297cc0dd625e519c81319c24c9149e70e8496de5475f6fa928342c"
+      }
+    }
+  },
+  "official_dpo_commit": "f8b8c0f49dc92a430bae41585f9d467d3618fe2f"
+}

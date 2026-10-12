@@ -1,0 +1,23 @@
+{
+  "sft_rows": 1024,
+  "train_prompts": 192,
+  "dev_prompts": 16,
+  "test_prompts": 16,
+  "sft_length": 256,
+  "max_new_tokens": 128,
+  "sft_lr": 1e-05,
+  "preference_lr": 1e-06,
+  "effective_batch": 64,
+  "sft_micro_batch": 4,
+  "pair_micro_batch": 8,
+  "generation_batch": 32,
+  "score_batch": 16,
+  "cache_batch": 8,
+  "max_updates": 16,
+  "eval_every": 16,
+  "validation_pairs": 32,
+  "curve_prompts": 4,
+  "test_samples": 1,
+  "compute_precision": "fp32",
+  "allow_tf32": false
+}

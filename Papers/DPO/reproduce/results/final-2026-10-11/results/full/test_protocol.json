@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-10-10T15:34:01.885857+00:00",
+  "primary_beta": 0.1,
+  "checkpoint": "final",
+  "runs": [
+    "sft",
+    "preferred_b0.1_s42",
+    "dpo_b0.1_s42",
+    "dpo_b0.05_s42",
+    "dpo_b1_s42",
+    "dpo_b5_s42",
+    "preferred_b0.1_s43",
+    "dpo_b0.1_s43",
+    "preferred_b0.1_s44",
+    "dpo_b0.1_s44"
+  ],
+  "prompts": 1000,
+  "samples_per_prompt": 4,
+  "selection": "prespecified; no test tuning"
+}

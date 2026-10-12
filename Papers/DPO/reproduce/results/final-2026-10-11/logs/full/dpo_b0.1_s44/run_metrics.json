@@ -1,0 +1,21 @@
+{
+  "run": "dpo_b0.1_s44",
+  "updates": 2344,
+  "training_examples": 149978,
+  "elapsed_seconds": 20517.708605529042,
+  "last": {
+    "update": 2344,
+    "loss": 0.37914626414959246,
+    "grad_norm": 7.817137718200684,
+    "lr": 1e-06,
+    "seconds": 3.464203072944656,
+    "examples": 26,
+    "allocated_gib": 11.216390132904053,
+    "reserved_gib": 14.12890625,
+    "margin": 1.2135530985318697,
+    "accuracy": 0.8846153846153846
+  },
+  "model_sha256": "8cbb78c56bfbb62c77b2d7935b90a1e1cd37db0bc2c2f3ce12073ca05fb5ef25",
+  "resume_used": false,
+  "parameter_count": 774030080
+}

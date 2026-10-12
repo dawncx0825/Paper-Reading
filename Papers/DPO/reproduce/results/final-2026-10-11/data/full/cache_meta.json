@@ -1,0 +1,8 @@
+{
+  "sft": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+  "tokenizer": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+  "train": "2b87d5468964d9e22de71bcd868500d55e7ef50a043d533b7903ca41cbc1c0ef",
+  "dev": "c2860f881945e086d5e070d71aec6afba9c51e8294628ebbf12d1c1dc35c2553",
+  "core": "a2da0143a8ab28305b48d4356742b49b527bad0eea3b7825006ca0010cdf20e6",
+  "convention": "exact_generated_ids_sum_completion_with_real_eos_v1"
+}

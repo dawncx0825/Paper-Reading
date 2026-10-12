@@ -1,0 +1,7 @@
+{
+  "profile": "smoke",
+  "repeated_load_logp_max_error": 0,
+  "greedy_generation_identical": true,
+  "checkpoint_updates": 2,
+  "full_interrupted_trajectory_bitwise_equivalence": "not claimed"
+}

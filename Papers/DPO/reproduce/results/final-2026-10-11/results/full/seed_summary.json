@@ -1,0 +1,28 @@
+[
+  {
+    "method": "dpo_b0.1_s",
+    "seed_runs": [
+      "dpo_b0.1_s42",
+      "dpo_b0.1_s43",
+      "dpo_b0.1_s44"
+    ],
+    "reward_mean": 0.994013885193029,
+    "reward_sample_std": 0.0004009946090647787,
+    "kl_mean": 10.504534276167552,
+    "kl_sample_std": 0.15810610189252125,
+    "scope": "update seeds conditional on shared SFT and preference data"
+  },
+  {
+    "method": "preferred_b0.1_s",
+    "seed_runs": [
+      "preferred_b0.1_s42",
+      "preferred_b0.1_s43",
+      "preferred_b0.1_s44"
+    ],
+    "reward_mean": 0.6390343316983297,
+    "reward_sample_std": 0.00395680031020239,
+    "kl_mean": 0.30856928141911827,
+    "kl_sample_std": 0.002713199952669171,
+    "scope": "update seeds conditional on shared SFT and preference data"
+  }
+]

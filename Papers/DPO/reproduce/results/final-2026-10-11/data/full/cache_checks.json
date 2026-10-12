@@ -1,0 +1,12 @@
+[
+  {
+    "split": "train",
+    "max_abs_logp_error": 0.0,
+    "tolerance": 0.002
+  },
+  {
+    "split": "dev",
+    "max_abs_logp_error": 0.0,
+    "tolerance": 0.002
+  }
+]

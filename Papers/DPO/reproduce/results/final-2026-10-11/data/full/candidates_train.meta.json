@@ -1,0 +1,9 @@
+{
+  "model_sha": "ff46379765144a99275cbf4abb2ac59428aaddbce3b5f5c9061e9a0d17aa7ca5",
+  "prompts_sha": "69465a85910ba339b3be2d131eef4e10641185f60b97a5a8a536175b6f35065d",
+  "count": 4,
+  "max_new_tokens": 128,
+  "batch": 32,
+  "seed": 2026,
+  "generation_code_sha": "b32e71b5a3581c1315115822998327128c4e461f214cbfb0b6870752df7446a1"
+}

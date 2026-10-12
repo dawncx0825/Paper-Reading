@@ -1,0 +1,84 @@
+{
+  "verified_source_files": 560,
+  "test_runs": 10,
+  "test_generations": 40000,
+  "identical_test_prompt_sets": true,
+  "test_bootstrap_recomputed": true,
+  "seed_statistics_recomputed": true,
+  "full_hours": 53.762174927500006,
+  "queue_hours": 54.94207958138889,
+  "stage_hours": {
+    "data": 0.019964257222222222,
+    "sft": 0.8258678738888889,
+    "sample-preferences": 4.64456982,
+    "score-preferences": 0.22338402305555558,
+    "cache-reference": 1.5087174525,
+    "preferred-ft": 9.003450527777776,
+    "evaluate-dev": 1.1879494347222221,
+    "dpo": 34.179375817777775,
+    "summarize": 0.002993501388888889,
+    "evaluate-test": 2.165894105277778
+  },
+  "training": {
+    "dpo_b0.05_s42": {
+      "updates": 2344,
+      "hours": 5.678266905425537,
+      "peak_reserved_gib": 14.12890625,
+      "last100_loss": 0.39782964293200235
+    },
+    "dpo_b0.1_s42": {
+      "updates": 2344,
+      "hours": 5.674342078633587,
+      "peak_reserved_gib": 14.12890625,
+      "last100_loss": 0.398780573442435
+    },
+    "dpo_b0.1_s43": {
+      "updates": 2344,
+      "hours": 5.686490961701946,
+      "peak_reserved_gib": 13.439453125,
+      "last100_loss": 0.4024856185605033
+    },
+    "dpo_b0.1_s44": {
+      "updates": 2344,
+      "hours": 5.699363501535845,
+      "peak_reserved_gib": 14.12890625,
+      "last100_loss": 0.4111122257377092
+    },
+    "dpo_b1_s42": {
+      "updates": 2344,
+      "hours": 5.688965530994174,
+      "peak_reserved_gib": 14.12890625,
+      "last100_loss": 0.3764951627268993
+    },
+    "dpo_b5_s42": {
+      "updates": 2344,
+      "hours": 5.681206515836109,
+      "peak_reserved_gib": 14.12890625,
+      "last100_loss": 1.1934475459409963
+    },
+    "preferred_b0.1_s42": {
+      "updates": 2344,
+      "hours": 2.985563067368316,
+      "peak_reserved_gib": 14.419921875,
+      "last100_loss": 414.4702233593281
+    },
+    "preferred_b0.1_s43": {
+      "updates": 2344,
+      "hours": 2.981007190103345,
+      "peak_reserved_gib": 14.423828125,
+      "last100_loss": 411.48004423581637
+    },
+    "preferred_b0.1_s44": {
+      "updates": 2344,
+      "hours": 3.0016685890963872,
+      "peak_reserved_gib": 14.435546875,
+      "last100_loss": 410.80314230405367
+    },
+    "sft": {
+      "updates": 372,
+      "hours": 0.8188066995347294,
+      "peak_reserved_gib": 14.736328125,
+      "last100_loss": 3.1468526947216406
+    }
+  }
+}
